@@ -1,0 +1,12 @@
+[package]
+name = "ens-calc"
+description = "Enshrouded 1.0 calculation engine: modifiers, damage, defence, sustain"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+ens-data.workspace = true
+flate2 = "1.1"

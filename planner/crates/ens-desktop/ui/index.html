@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unshrouded</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header id="top"></header>
+  <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+  <div class="body">
+    <aside class="rail" id="rail" aria-label="Headline numbers"></aside>
+    <main id="view"></main>
+  </div>
+  <footer><span><span id="game"></span></span><span>Ctrl+Z undo · Ctrl+Y redo · Ctrl+F search tree</span></footer>
+</div>
+<div id="status" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+<div id="dpslive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+<div id="tip" role="tooltip"></div>
+<div id="dlg" class="dlg-back" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

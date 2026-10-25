@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Damage meter</title>
+<link rel="stylesheet" href="meter.css">
+</head>
+<body>
+<div id="meter">
+  <header data-tauri-drag-region>
+    <span id="dot" class="dot" aria-hidden="true"></span>
+    <span id="fight" data-tauri-drag-region>Waiting for the combat log…</span>
+    <span id="timer" class="num" data-tauri-drag-region></span>
+    <button id="fade" title="Change how see-through the meter is" aria-label="Change transparency">◐</button>
+    <button id="close" title="Close the meter" aria-label="Close the meter">×</button>
+  </header>
+  <section class="head">
+    <div><span id="dps" class="big num">–</span> <span class="unit">DPS</span></div>
+    <div class="sub"><span id="now" class="num"></span><span id="line" class="num"></span></div>
+  </section>
+  <nav id="tabs" role="tablist" aria-label="Meter views">
+    <button data-tab="damage" role="tab">Damage</button><button data-tab="hits" role="tab">Hits</button><button data-tab="fights" role="tab">Fights</button><button data-tab="taken" role="tab">Taken</button>
+  </nav>
+  <main id="body" aria-live="off"></main>
+  <footer id="foot"></footer>
+</div>
+<script src="meter.js"></script>
+</body>
+</html>

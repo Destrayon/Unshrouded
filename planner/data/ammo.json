@@ -1,0 +1,2506 @@
+{
+ "source": "Enshrouded game data (keen::ItemInfo, category Ammunition, ammunitionType Arrow/Spell; test, enemy, trap and firework items left out), decoded with kfc/decode.py; names from kfc/items/items_all.json. Built by tmp/ammo/build_ammo.py. analysis/ammo.md has the read path.",
+ "key": "items: ItemInfo.itemId (decimal), the value at ImpactItemConfig + 0x1C (ammunitionItem.itemId) of the impact entity that ran the hit. templates: projectile template GUID (ItemInfo.equipment.placedEntity), for reference; the read path does not yield it.",
+ "items": {
+  "2956941513": {
+   "name": "Wooden Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 0,
+   "level": 3,
+   "debug": "Ammo_T0_Arrow_Wooden_Grassland_lvl3",
+   "template": "Projectile_Player_ArrowT0_Wood"
+  },
+  "3511177059": {
+   "name": "Flare Arrow",
+   "kind": "Arrow",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 10,
+   "debug": "Ammo_T1_Arrow_Flare_lvl10",
+   "template": "Projectile_Player_ArrowT2_Flare"
+  },
+  "1422216404": {
+   "name": "Flint Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Arrow_Flint_lvl5",
+   "template": "Projectile_Player_ArrowT1_Flint"
+  },
+  "1729479389": {
+   "name": "Scrap Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce",
+    "Cut"
+   ],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 10,
+   "debug": "Ammo_T1_Arrow_Scrap_lvl10",
+   "template": "Projectile_Player_ArrowT1_Scrap"
+  },
+  "1247095576": {
+   "name": "Bone Arrow",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Arrow_Bone_lvl15",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "2919301642": {
+   "name": "Poisoned Copper Arrow",
+   "kind": "Arrow",
+   "element": "Poison",
+   "elements": [
+    "Poison",
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Arrow_Copper_Poison_lvl15",
+   "template": "Projectile_Player_ArrowT2_CopperPoison"
+  },
+  "4046432840": {
+   "name": "Copper Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Arrow_Copper_lvl12",
+   "template": "Projectile_Player_ArrowT2_Copper"
+  },
+  "2040014559": {
+   "name": "Explosive Arrow I",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Arrow_Explosive_lvl15",
+   "template": "Projectile_Player_ArrowT4_Explosive"
+  },
+  "3761680048": {
+   "name": "Shroud Arrow I",
+   "kind": "Arrow",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Arrow_Fog_lvl15",
+   "template": "Projectile_Player_ArrowT2_Fog"
+  },
+  "397674071": {
+   "name": "Eternal Frost Arrow I",
+   "kind": "Arrow",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Rare",
+   "tier": 2,
+   "level": 10,
+   "debug": "Ammo_T2_Arrow_Magic_Ice_Eternal_lvl10",
+   "template": "Projectile_Player_T2_Arrow_Magic_Ice_Eternal"
+  },
+  "2091572334": {
+   "name": "Giant Bone Arrow I",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 20,
+   "debug": "Ammo_T3_Arrow_Bone_lvl20",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "551568007": {
+   "name": "Poisoned Bronze Arrow",
+   "kind": "Arrow",
+   "element": "Poison",
+   "elements": [
+    "Poison",
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 20,
+   "debug": "Ammo_T3_Arrow_Bronze_Poison_lvl20",
+   "template": "Projectile_Player_ArrowT3_BronzePoison"
+  },
+  "3990911183": {
+   "name": "Bronze Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Arrow_Bronze_lvl17",
+   "template": "Projectile_Player_ArrowT3_Bronze"
+  },
+  "1536235498": {
+   "name": "Fossilized Bone Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce",
+    "Cut"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Arrow_Ivory_lvl17",
+   "template": "Projectile_Player_ArrowT3_Ivory"
+  },
+  "685713190": {
+   "name": "Eternal Ember Arrow I",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Rare",
+   "tier": 3,
+   "level": 15,
+   "debug": "Ammo_T3_Arrow_Magic_Fire_Eternal_lvl15",
+   "template": "Projectile_Player_T3_Arrow_Magic_Fire_Eternal"
+  },
+  "2371220722": {
+   "name": "Stun Arrow",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 20,
+   "debug": "Ammo_T3_Arrow_Stun_lvl20",
+   "template": "Projectile_Player_ArrowT3_Stun"
+  },
+  "3270347800": {
+   "name": "Giant Bone Arrow II",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 27,
+   "debug": "Ammo_T4_Arrow_Bone_lvl27",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "1038927419": {
+   "name": "Explosive Arrow II",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 27,
+   "debug": "Ammo_T4_Arrow_Explosive_lvl27",
+   "template": "Projectile_Player_ArrowT4_Explosive"
+  },
+  "2369582730": {
+   "name": "Poisoned Iron Arrow",
+   "kind": "Arrow",
+   "element": "Poison",
+   "elements": [
+    "Poison",
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 27,
+   "debug": "Ammo_T4_Arrow_Iron_Poison_lvl27",
+   "template": "Projectile_Player_ArrowT4_IronPoison"
+  },
+  "1454438654": {
+   "name": "Iron Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 22,
+   "debug": "Ammo_T4_Arrow_Iron_lvl22",
+   "template": "Projectile_Player_ArrowT4_Iron"
+  },
+  "3133483038": {
+   "name": "Eternal Voltaic Arrow I",
+   "kind": "Arrow",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Rare",
+   "tier": 4,
+   "level": 20,
+   "debug": "Ammo_T4_Arrow_Magic_Lightning_Eternal_lvl20",
+   "template": "Projectile_Player_T4_Arrow_Magic_Lightning_Eternal"
+  },
+  "2941384776": {
+   "name": "Giant Bone Arrow III",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 35,
+   "debug": "Ammo_T5_Arrow_Bone_lvl35",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "4214162606": {
+   "name": "Shroud Arrow II",
+   "kind": "Arrow",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 35,
+   "debug": "Ammo_T5_Arrow_Fog_lvl35",
+   "template": "Projectile_Player_ArrowT5_Fog"
+  },
+  "225262139": {
+   "name": "Eternal Ember Arrow II",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Epic",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Arrow_Magic_Fire_Eternal_lvl28",
+   "template": "Projectile_Player_T5_Arrow_Magic_Fire_Eternal"
+  },
+  "945340556": {
+   "name": "Eternal Frost Arrow II",
+   "kind": "Arrow",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Epic",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Arrow_Magic_Ice_Eternal_lvl28",
+   "template": "Projectile_Player_T5_Arrow_Magic_Ice_Eternal"
+  },
+  "2172551026": {
+   "name": "Obsidian Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce",
+    "Cut"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Arrow_Obsidian_lvl30",
+   "template": "Projectile_Player_ArrowT5_Obsidian"
+  },
+  "103008069": {
+   "name": "Poisoned Steel Arrow",
+   "kind": "Arrow",
+   "element": "Poison",
+   "elements": [
+    "Poison",
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 35,
+   "debug": "Ammo_T5_Arrow_SteelPoison_lvl35",
+   "template": "Projectile_Player_ArrowT5_SteelPoison"
+  },
+  "3559583218": {
+   "name": "Steel Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Arrow_Steel_lvl30",
+   "template": "Projectile_Player_ArrowT5_Steel"
+  },
+  "1610169156": {
+   "name": "Eternal Giant Bone Arrow I",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Epic",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Arrow_Bone_Eternal_lvl36",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "3600953136": {
+   "name": "Giant Bone Arrow IV",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Arrow_Bone_lvl38",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "3342011345": {
+   "name": "Explosive Arrow III",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 44,
+   "debug": "Ammo_T6_Arrow_Explosive_lvl44",
+   "template": "Projectile_Player_ArrowT4_Explosive"
+  },
+  "2453015274": {
+   "name": "Eternal Voltaic Arrow II",
+   "kind": "Arrow",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Epic",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Arrow_Magic_Lightning_Eternal_lvl36",
+   "template": "Projectile_Player_T6_Arrow_Magic_Lightning_Eternal"
+  },
+  "1050570715": {
+   "name": "Poisoned Golden Steel Arrow",
+   "kind": "Arrow",
+   "element": "Poison",
+   "elements": [
+    "Poison",
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 44,
+   "debug": "Ammo_T6_Arrow_Steel_Gold_Poison_lvl44",
+   "template": "Projectile_Player_ArrowT6_SteelGoldPoison"
+  },
+  "3634108976": {
+   "name": "Golden Steel Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Arrow_Steel_Gold_lvl38",
+   "template": "Projectile_Player_ArrowT5_Steel"
+  },
+  "1677413497": {
+   "name": "Blunt Arrow",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Arrow_Blunt_lvl47",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "334395711": {
+   "name": "Eternal Giant Bone Arrow II",
+   "kind": "Arrow",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Arrow_Bone_Eternal_lvl45",
+   "template": "Projectile_Player_ArrowT2_Bone"
+  },
+  "4160116201": {
+   "name": "Exploding Arrow IV",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 50,
+   "debug": "Ammo_T7_Arrow_Explosive_lvl50",
+   "template": "Projectile_Player_ArrowT4_Explosive"
+  },
+  "3333535459": {
+   "name": "Shroud Arrow III",
+   "kind": "Arrow",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 50,
+   "debug": "Ammo_T7_Arrow_Fog_lvl50",
+   "template": "Projectile_Player_ArrowT7_Fog"
+  },
+  "678529367": {
+   "name": "Eternal Ember Arrow III",
+   "kind": "Arrow",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Arrow_Magic_Fire_Eternal_lvl45",
+   "template": "Projectile_Player_T7_Arrow_Magic_Fire_Eternal"
+  },
+  "3833476832": {
+   "name": "Eternal Frost Arrow III",
+   "kind": "Arrow",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Arrow_Magic_Ice_Eternal_lvl45",
+   "template": "Projectile_Player_T7_Arrow_Magic_Ice_Eternal"
+  },
+  "2369196415": {
+   "name": "Eternal Voltaic Arrow III",
+   "kind": "Arrow",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Arrow_Magic_Lightning_Eternal_lvl45",
+   "template": "Projectile_Player_T7_Arrow_Magic_Lightning_Eternal"
+  },
+  "832661139": {
+   "name": "Moonstone Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce",
+    "Cut"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Arrow_Moonstone_lvl47",
+   "template": "Projectile_Player_ArrowT5_Obsidian"
+  },
+  "2685638060": {
+   "name": "Poisoned Celestium Arrow",
+   "kind": "Arrow",
+   "element": "Poison",
+   "elements": [
+    "Poison",
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 50,
+   "debug": "Ammo_T7_Arrow_Steel_Celesthium_Poison_lvl50",
+   "template": "Projectile_Player_ArrowT7_SteelCelestiumPoison"
+  },
+  "2519697782": {
+   "name": "Celestium Arrow",
+   "kind": "Arrow",
+   "element": "Pierce",
+   "elements": [
+    "Pierce"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Arrow_Steel_Celesthium_lvl47",
+   "template": "Projectile_Player_ArrowT7_SteelCelestium"
+  },
+  "2401631770": {
+   "name": "Fire Bolt I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 0,
+   "level": 3,
+   "debug": "Ammo_T0_Spell_Fire_Bolt_lvl3",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "1707587232": {
+   "name": "Mana Drain I",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 0,
+   "level": 3,
+   "debug": "Ammo_T0_Spell_ManaLeechBeam_Channel_lvl3"
+  },
+  "3918049792": {
+   "name": "Fireball I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 10,
+   "debug": "Ammo_T1_Spell_Fire_Ball_lvl10",
+   "template": "Projectile_Player_Staff_Fireball_1"
+  },
+  "875842012": {
+   "name": "Fire Bolt II",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Spell_Fire_Bolt_lvl5",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "1899806950": {
+   "name": "Heal Cascade I",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Spell_Heal_Channel_lvl5"
+  },
+  "3169292847": {
+   "name": "Ice Bolt I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Spell_Ice_Bolt_lvl5",
+   "template": "Projectile_Player_Staff_IceBolt_1_NoExplosion"
+  },
+  "1390932160": {
+   "name": "Eternal Ice Bolt I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Rare",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Spell_Ice_Bolt_lvl5_Eternal",
+   "template": "Projectile_Player_Staff_IceBolt_1"
+  },
+  "4241750567": {
+   "name": "Mana Drain II",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Spell_ManaLeechBeam_Channel_lvl5"
+  },
+  "1843940779": {
+   "name": "Entangle I",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 1,
+   "level": 5,
+   "debug": "Ammo_T1_Spell_Root_lvl5",
+   "template": "Zone_Spell_Rooting_1"
+  },
+  "147615610": {
+   "name": "Bonestorm I",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Spell_Bone_Channel_lvl15"
+  },
+  "1833734179": {
+   "name": "Fireball II",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Spell_Fire_Ball_lvl15",
+   "template": "Projectile_Player_Staff_Fireball_2"
+  },
+  "1790474262": {
+   "name": "Fire Bolt III",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_Fire_Bolt_lvl12",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "901722888": {
+   "name": "Pillar Of Flames I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_Fire_Pillar_lvl12",
+   "template": "Zone_Spell_Fire_Pillar_1"
+  },
+  "3878494540": {
+   "name": "Chain Heal I",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_Heal_Chain_lvl12"
+  },
+  "1614683414": {
+   "name": "Blizzard I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 15,
+   "debug": "Ammo_T2_Spell_Ice_Blizzard_lvl15",
+   "template": "Zone_Spell_Blizzard_1"
+  },
+  "2728050036": {
+   "name": "Ice Bolt II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_Ice_Bolt_lvl12",
+   "template": "Projectile_Player_Staff_IceBolt_2"
+  },
+  "1611551751": {
+   "name": "Eternal Chain Lightning I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Rare",
+   "tier": 2,
+   "level": 10,
+   "debug": "Ammo_T2_Spell_Lightning_Chain_lvl10_Eternal"
+  },
+  "1048548069": {
+   "name": "Chain Lightning I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_Lightning_Chain_lvl12"
+  },
+  "2875641903": {
+   "name": "Shock Wisp I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_Lightning_Wisp_lvl12",
+   "template": "Player_Companion_ShockWisp_1"
+  },
+  "711941661": {
+   "name": "Mana Drain III",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 2,
+   "level": 12,
+   "debug": "Ammo_T2_Spell_ManaLeechBeam_Channel_lvl12"
+  },
+  "471823515": {
+   "name": "Acid Bite",
+   "kind": "Spell",
+   "element": "Poison",
+   "elements": [
+    "Poison"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Acid_Cone_lvl17",
+   "template": "Explosion_Player_Spell_AcidCone"
+  },
+  "3045356884": {
+   "name": "Bonestorm II",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 20,
+   "debug": "Ammo_T3_Spell_Bone_Channel_lvl20"
+  },
+  "1912744772": {
+   "name": "Eternal Fireball I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Rare",
+   "tier": 3,
+   "level": 15,
+   "debug": "Ammo_T3_Spell_Fire_Ball_lvl15_Eternal",
+   "template": "Projectile_Player_Staff_Fireball_3"
+  },
+  "3498203616": {
+   "name": "Fire Bolt IV",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Fire_Bolt_lvl17",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "738997972": {
+   "name": "Light Burst",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Fire_Lightburst_lvl17",
+   "template": "Explosion_Player_Spell_LightBurst_Explosion1"
+  },
+  "2830104367": {
+   "name": "Fire Totem I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Fire_Totem_lvl17",
+   "template": "Prop_Player_Ally_Totem_Projectile_Fire_1"
+  },
+  "1203301438": {
+   "name": "Eternal Chain Heal I",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Epic",
+   "tier": 3,
+   "level": 15,
+   "debug": "Ammo_T3_Spell_Heal_Chain_lvl15_Eternal",
+   "template": "Projectile_Player_Staff_Heal"
+  },
+  "521600917": {
+   "name": "Eternal Ice Bolt II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Epic",
+   "tier": 3,
+   "level": 15,
+   "debug": "Ammo_T3_Spell_Ice_Bolt_lvl15_Eternal",
+   "template": "Projectile_Player_Staff_IceBolt_3"
+  },
+  "632849243": {
+   "name": "Ice Totem I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Ice_Totem_lvl17",
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_1"
+  },
+  "1735403844": {
+   "name": "Ball Lightning I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 20,
+   "debug": "Ammo_T3_Spell_Lightning_Ball_lvl20",
+   "template": "Projectile_Player_Staff_LightningBall_1"
+  },
+  "4044132453": {
+   "name": "Shock Totem I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Lightning_Totem_lvl17",
+   "template": "Prop_Player_Ally_Totem_Projectile_Lightning_1"
+  },
+  "2591238243": {
+   "name": "Mana Drain IV",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_ManaLeechBeam_Channel_lvl17"
+  },
+  "1100793430": {
+   "name": "Entangle II",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Root_lvl17",
+   "template": "Zone_Spell_Rooting_2"
+  },
+  "1250423976": {
+   "name": "Hollow Wretch I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice",
+    "Cut"
+   ],
+   "rarity": "Common",
+   "tier": 3,
+   "level": 17,
+   "debug": "Ammo_T3_Spell_Skeleton_lvl17",
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_1"
+  },
+  "4291668892": {
+   "name": "Eternal Acid Bite I",
+   "kind": "Spell",
+   "element": "Poison",
+   "elements": [
+    "Poison"
+   ],
+   "rarity": "Epic",
+   "tier": 4,
+   "level": 20,
+   "debug": "Ammo_T4_Spell_Acid_Cone_lvl20_Eternal",
+   "template": "Explosion_Player_Spell_AcidCone"
+  },
+  "3014702000": {
+   "name": "Bonestorm III",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 27,
+   "debug": "Ammo_T4_Spell_Bone_Channel_lvl27"
+  },
+  "2781335650": {
+   "name": "Fire Bolt V",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 22,
+   "debug": "Ammo_T4_Spell_Fire_Bolt_lvl22",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "72192472": {
+   "name": "Eternal Light Burst I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Epic",
+   "tier": 4,
+   "level": 20,
+   "debug": "Ammo_T4_Spell_Fire_Lightburst_lvl20_Eternal",
+   "template": "Explosion_Player_Spell_LightBurst_Explosion2"
+  },
+  "1805048399": {
+   "name": "Pillar Of Flames II",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 22,
+   "debug": "Ammo_T4_Spell_Fire_Pillar_lvl22",
+   "template": "Zone_Spell_Fire_Pillar_2"
+  },
+  "3940653429": {
+   "name": "Shroud Meteor",
+   "kind": "Spell",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 27,
+   "debug": "Ammo_T4_Spell_Fog_Meteor_lvl27",
+   "template": "Explosion_Player_Spell_Meteor_Explosion"
+  },
+  "1087441899": {
+   "name": "Heal Beam",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 27,
+   "debug": "Ammo_T4_Spell_Heal_Beam_Channel_lvl27"
+  },
+  "2337136795": {
+   "name": "Eternal Heal Cascade I",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Epic",
+   "tier": 4,
+   "level": 20,
+   "debug": "Ammo_T4_Spell_Heal_Channel_lvl20_Eternal",
+   "template": "Projectile_Player_Staff_HealChannel"
+  },
+  "621614770": {
+   "name": "Blizzard II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 22,
+   "debug": "Ammo_T4_Spell_Ice_Blizzard_lvl22",
+   "template": "Zone_Spell_Blizzard_2"
+  },
+  "1138260679": {
+   "name": "Eternal Ice Totem I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Epic",
+   "tier": 4,
+   "level": 20,
+   "debug": "Ammo_T4_Spell_Ice_Totem_lvl20_Eternal",
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_2"
+  },
+  "1685866698": {
+   "name": "Arc Lightning",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 22,
+   "debug": "Ammo_T4_Spell_Lightning_Channel_lvl22"
+  },
+  "1937493913": {
+   "name": "Eternal Shock Wisp I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Epic",
+   "tier": 4,
+   "level": 20,
+   "debug": "Ammo_T4_Spell_Lightning_Wisp_lvl20_Eternal",
+   "template": "Player_Companion_ShockWisp_2"
+  },
+  "289913176": {
+   "name": "Mana Drain V",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 4,
+   "level": 22,
+   "debug": "Ammo_T4_Spell_ManaLeechBeam_Channel_lvl22"
+  },
+  "4222822690": {
+   "name": "Bonestorm IV",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 35,
+   "debug": "Ammo_T5_Spell_Bone_Channel_lvl35"
+  },
+  "1356876810": {
+   "name": "Fireball III",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Spell_Fire_Ball_lvl30",
+   "template": "Projectile_Player_Staff_Fireball_4"
+  },
+  "2506485819": {
+   "name": "Fire Bolt VI",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Spell_Fire_Bolt_lvl30",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "3172618647": {
+   "name": "Eternal Fire Totem I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Epic",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Spell_Fire_Totem_lvl28_Eternal",
+   "template": "Prop_Player_Ally_Totem_Projectile_Fire_2"
+  },
+  "2153855871": {
+   "name": "Shroud Beam",
+   "kind": "Spell",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Spell_Fog_Beam_Channel_lvl30"
+  },
+  "3216582163": {
+   "name": "Chain Heal II",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 35,
+   "debug": "Ammo_T5_Spell_Heal_Chain_lvl35"
+  },
+  "4195393452": {
+   "name": "Eternal Blizzard I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Epic",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Spell_Ice_Blizzard_lvl28_Eternal",
+   "template": "Zone_Spell_Blizzard_3"
+  },
+  "1533278840": {
+   "name": "Ice Bolt III",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Spell_Ice_Bolt_lvl30",
+   "template": "Projectile_Player_Staff_IceBolt_4"
+  },
+  "1822034736": {
+   "name": "Ball Lightning II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Spell_Lightning_Ball_lvl30",
+   "template": "Projectile_Player_Staff_LightningBall_2"
+  },
+  "2774889835": {
+   "name": "Eternal Chain Lightning II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Epic",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Spell_Lightning_Chain_lvl28_Eternal"
+  },
+  "2971039479": {
+   "name": "Mana Drain VI",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Spell_ManaLeechBeam_Channel_lvl28"
+  },
+  "1774181330": {
+   "name": "Entangle III",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 5,
+   "level": 30,
+   "debug": "Ammo_T5_Spell_Root_lvl30",
+   "template": "Zone_Spell_Rooting_3"
+  },
+  "3759493341": {
+   "name": "Eternal Hollow Wretch I",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice",
+    "Cut"
+   ],
+   "rarity": "Epic",
+   "tier": 5,
+   "level": 28,
+   "debug": "Ammo_T5_Spell_Skeleton_lvl28_Eternal",
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_2"
+  },
+  "1887970091": {
+   "name": "Eternal Bonestorm I",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Epic",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Spell_Bone_Channel_lvl36_Eternal"
+  },
+  "4054999373": {
+   "name": "Bonestorm V",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_Bone_Channel_lvl38"
+  },
+  "1334157650": {
+   "name": "Eternal Fireball II",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Epic",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Spell_Fire_Ball_lvl36_Eternal",
+   "template": "Projectile_Player_Staff_Fireball_5"
+  },
+  "2583959345": {
+   "name": "Fire Bolt VII",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_Fire_Bolt_lvl38",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "111980330": {
+   "name": "Pillar Of Flames III",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 44,
+   "debug": "Ammo_T6_Spell_Fire_Pillar_lvl44",
+   "template": "Zone_Spell_Fire_Pillar_3"
+  },
+  "1625866381": {
+   "name": "Eternal Heal Beam I",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Epic",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Spell_Heal_Beam_Channel_lvl36_Eternal"
+  },
+  "2029595221": {
+   "name": "Eternal Ice Bolt III",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Legendary",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Spell_Ice_Bolt_lvl36_Eternal",
+   "template": "Projectile_Player_Staff_IceBolt_5"
+  },
+  "3960177886": {
+   "name": "Ice Totem II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_Ice_Totem_lvl38",
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_3"
+  },
+  "1389638766": {
+   "name": "Eternal Arc Lightning I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Epic",
+   "tier": 6,
+   "level": 36,
+   "debug": "Ammo_T6_Spell_Lightning_Channel_lvl36_Eternal"
+  },
+  "3046388897": {
+   "name": "Shock Totem II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_Lightning_Totem_lvl38",
+   "template": "Prop_Player_Ally_Totem_Projectile_Lightning_2"
+  },
+  "396873784": {
+   "name": "Shock Wisp II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_Lightning_Wisp_lvl38",
+   "template": "Player_Companion_ShockWisp_3"
+  },
+  "1713565263": {
+   "name": "Protective Barrier",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_MagicShield_lvl38",
+   "template": "Zone_Spell_MagicShield_1"
+  },
+  "2404490725": {
+   "name": "Mana Drain VII",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 38,
+   "debug": "Ammo_T6_Spell_ManaLeechBeam_Channel_lvl38"
+  },
+  "4252546627": {
+   "name": "Hollow Wretch II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice",
+    "Cut"
+   ],
+   "rarity": "Common",
+   "tier": 6,
+   "level": 44,
+   "debug": "Ammo_T6_Spell_Skeleton_lvl44",
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_3"
+  },
+  "1674086102": {
+   "name": "Eternal Acid Bite II",
+   "kind": "Spell",
+   "element": "Poison",
+   "elements": [
+    "Poison"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Acid_Cone_lvl45_Eternal",
+   "template": "Explosion_Player_Spell_AcidCone"
+  },
+  "297685721": {
+   "name": "Eternal Bonestorm II",
+   "kind": "Spell",
+   "element": "Blunt",
+   "elements": [
+    "Blunt"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Bone_Channel_lvl45_Eternal"
+  },
+  "3838422264": {
+   "name": "Eternal Fireball III",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Fire_Ball_lvl45_Eternal",
+   "template": "Projectile_Player_Staff_Fireball_7"
+  },
+  "83283491": {
+   "name": "Fireball IV",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Spell_Fire_Ball_lvl47",
+   "template": "Projectile_Player_Staff_Fireball_6"
+  },
+  "381093769": {
+   "name": "Fire Bolt VIII",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Spell_Fire_Bolt_lvl47",
+   "template": "Projectile_Player_Staff_Firebolt_1"
+  },
+  "377316946": {
+   "name": "Eternal Light Burst II",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Fire_Lightburst_lvl45_Eternal",
+   "template": "Explosion_Player_Spell_LightBurst_Explosion2"
+  },
+  "3180367619": {
+   "name": "Eternal Pillar Of Flames I",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Fire_Pillar_lvl45_Eternal",
+   "template": "Zone_Spell_Fire_Pillar_4"
+  },
+  "3916550351": {
+   "name": "Eternal Fire Totem II",
+   "kind": "Spell",
+   "element": "Fire",
+   "elements": [
+    "Fire"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Fire_Totem_lvl45_Eternal",
+   "template": "Prop_Player_Ally_Totem_Projectile_Fire_3"
+  },
+  "803538053": {
+   "name": "Eternal Shroud Beam",
+   "kind": "Spell",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Fog_Beam_Channel_lvl45_Eternal"
+  },
+  "1835123088": {
+   "name": "Eternal Shroud Meteor",
+   "kind": "Spell",
+   "element": "Shroud",
+   "elements": [
+    "Shroud"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Fog_Meteor_lvl45_Eternal",
+   "template": "Explosion_Player_Spell_Meteor_Explosion"
+  },
+  "2753909436": {
+   "name": "Eternal Heal Beam II",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Heal_Beam_Channel_lvl45_Eternal"
+  },
+  "1375984897": {
+   "name": "Eternal Chain Heal II",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Heal_Chain_lvl45_Eternal"
+  },
+  "61698870": {
+   "name": "Eternal Heal Cascade II",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Heal_Channel_lvl45_Eternal",
+   "template": "Projectile_Player_Staff_HealChannel"
+  },
+  "1958601376": {
+   "name": "Heal Cascade II",
+   "kind": "Spell",
+   "element": "Healing",
+   "elements": [
+    "Healing"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Spell_Heal_Channel_lvl47",
+   "template": "Projectile_Player_Staff_HealChannel"
+  },
+  "3381945830": {
+   "name": "Eternal Blizzard II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Ice_Blizzard_lvl45_Eternal",
+   "template": "Zone_Spell_Blizzard_4"
+  },
+  "1144190206": {
+   "name": "Eternal Ice Bolt IV",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Ice_Bolt_lvl45_Eternal",
+   "template": "Projectile_Player_Staff_IceBolt_7"
+  },
+  "780965247": {
+   "name": "Ice Bolt IV",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Spell_Ice_Bolt_lvl47",
+   "template": "Projectile_Player_Staff_IceBolt_6"
+  },
+  "3681008420": {
+   "name": "Eternal Ice Totem II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Ice_Totem_lvl45_Eternal",
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_4"
+  },
+  "2369199112": {
+   "name": "Eternal Ball Lightning I",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Lightning_Ball_lvl45_Eternal",
+   "template": "Projectile_Player_Staff_LightningBall_3"
+  },
+  "1943367547": {
+   "name": "Eternal Chain Lightning III",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Lightning_Chain_lvl45_Eternal"
+  },
+  "2894776039": {
+   "name": "Chain Lightning II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Spell_Lightning_Chain_lvl47"
+  },
+  "3901795018": {
+   "name": "Eternal Arc Lightning II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Lightning_Channel_lvl45_Eternal"
+  },
+  "3694023795": {
+   "name": "Eternal Shock Totem",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Lightning_Totem_lvl45_Eternal",
+   "template": "Prop_Player_Ally_Totem_Projectile_Lightning_3"
+  },
+  "1209734633": {
+   "name": "Eternal Shock Wisp II",
+   "kind": "Spell",
+   "element": "Lightning",
+   "elements": [
+    "Lightning"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Lightning_Wisp_lvl45_Eternal",
+   "template": "Player_Companion_ShockWisp_4"
+  },
+  "1408904500": {
+   "name": "Eternal Protective Barrier",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Rare",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_MagicShield_lvl45_Eternal",
+   "template": "Zone_Spell_MagicShield_2"
+  },
+  "2032176232": {
+   "name": "Mana Drain VIII",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Common",
+   "tier": 7,
+   "level": 47,
+   "debug": "Ammo_T7_Spell_ManaLeechBeam_Channel_lvl47"
+  },
+  "967466975": {
+   "name": "Eternal Entangle",
+   "kind": "Spell",
+   "element": "",
+   "elements": [],
+   "rarity": "Rare",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Root_lvl45_Eternal",
+   "template": "Zone_Spell_Rooting_4"
+  },
+  "3370079249": {
+   "name": "Eternal Hollow Wretch II",
+   "kind": "Spell",
+   "element": "Ice",
+   "elements": [
+    "Ice",
+    "Cut"
+   ],
+   "rarity": "Legendary",
+   "tier": 7,
+   "level": 45,
+   "debug": "Ammo_T7_Spell_Skeleton_lvl45_Eternal",
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_4"
+  }
+ },
+ "templates": {
+  "d3ac2b98afc97e4a98d9ca06c480114e": {
+   "template": "Explosion_Player_Spell_AcidCone",
+   "items": [
+    "Eternal Acid Bite I",
+    "Acid Bite",
+    "Eternal Acid Bite II"
+   ],
+   "element": "Poison"
+  },
+  "5fb7260b62280d42aa8e398cc4acee11": {
+   "template": "Explosion_Player_Spell_LightBurst_Explosion1",
+   "items": [
+    "Light Burst"
+   ],
+   "element": "Fire"
+  },
+  "6dcfe786586e1a448f37a68d751d361a": {
+   "template": "Explosion_Player_Spell_LightBurst_Explosion2",
+   "items": [
+    "Eternal Light Burst II",
+    "Eternal Light Burst I"
+   ],
+   "element": "Fire"
+  },
+  "4333dbc3aef72c4fab73c0ae7eaf629e": {
+   "template": "Explosion_Player_Spell_Meteor_Explosion",
+   "items": [
+    "Eternal Shroud Meteor",
+    "Shroud Meteor"
+   ],
+   "element": "Shroud"
+  },
+  "9b9dce3f72fc0044afbed966a062b27d": {
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_1",
+   "items": [
+    "Hollow Wretch I"
+   ],
+   "element": "Ice"
+  },
+  "0eba3aedfdfa934a9e73337769e4eb2f": {
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_2",
+   "items": [
+    "Eternal Hollow Wretch I"
+   ],
+   "element": "Ice"
+  },
+  "2f3035cf902cf744ad071032de0a513b": {
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_3",
+   "items": [
+    "Hollow Wretch II"
+   ],
+   "element": "Ice"
+  },
+  "ec58d8d6f08de1409aac250558ff304e": {
+   "template": "Player_Companion_Lesser_Skeleton_Weakling_Necromancy_Spell_4",
+   "items": [
+    "Eternal Hollow Wretch II"
+   ],
+   "element": "Ice"
+  },
+  "2ac3c94957834f4b8fe08853d0b321d8": {
+   "template": "Player_Companion_ShockWisp_1",
+   "items": [
+    "Shock Wisp I"
+   ],
+   "element": "Lightning"
+  },
+  "a645c2349c51254ab5dec38c48d01183": {
+   "template": "Player_Companion_ShockWisp_2",
+   "items": [
+    "Eternal Shock Wisp I"
+   ],
+   "element": "Lightning"
+  },
+  "bc1f493362de7b4f9fa6e3bfb3fb811b": {
+   "template": "Player_Companion_ShockWisp_3",
+   "items": [
+    "Shock Wisp II"
+   ],
+   "element": "Lightning"
+  },
+  "951ff2c62e59444cbc7cf79a0ccfded1": {
+   "template": "Player_Companion_ShockWisp_4",
+   "items": [
+    "Eternal Shock Wisp II"
+   ],
+   "element": "Lightning"
+  },
+  "d9767ff059801a4096fa8e5b1bbc2238": {
+   "template": "Projectile_Player_ArrowT0_Wood",
+   "items": [
+    "Wooden Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "57ec8948ccb0b2448e399270266d571d": {
+   "template": "Projectile_Player_ArrowT1_Flint",
+   "items": [
+    "Flint Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "d05669ca3a9b104a97668d2c6011830d": {
+   "template": "Projectile_Player_ArrowT1_Scrap",
+   "items": [
+    "Scrap Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "b6e41ee5bc139c4a9642518c4ec04130": {
+   "template": "Projectile_Player_ArrowT2_Bone",
+   "items": [
+    "Giant Bone Arrow I",
+    "Eternal Giant Bone Arrow I",
+    "Giant Bone Arrow III",
+    "Blunt Arrow",
+    "Giant Bone Arrow II",
+    "Giant Bone Arrow IV",
+    "Bone Arrow",
+    "Eternal Giant Bone Arrow II"
+   ],
+   "element": "Blunt"
+  },
+  "9c840beb69b469469de5f059f1854f39": {
+   "template": "Projectile_Player_ArrowT2_Copper",
+   "items": [
+    "Copper Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "84e46960dca4ec44a4523403ee1c5dd1": {
+   "template": "Projectile_Player_ArrowT2_CopperPoison",
+   "items": [
+    "Poisoned Copper Arrow"
+   ],
+   "element": "Poison"
+  },
+  "6a3ca2ab9f2df544987cad5ebc1faf45": {
+   "template": "Projectile_Player_ArrowT2_Flare",
+   "items": [
+    "Flare Arrow"
+   ],
+   "element": ""
+  },
+  "13195210119cac43becc617de0ed364a": {
+   "template": "Projectile_Player_ArrowT2_Fog",
+   "items": [
+    "Shroud Arrow I"
+   ],
+   "element": "Shroud"
+  },
+  "65dd5372acce79448513c44a1c19d72a": {
+   "template": "Projectile_Player_ArrowT3_Bronze",
+   "items": [
+    "Bronze Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "330833aacff1064480f3b3c1445a1e79": {
+   "template": "Projectile_Player_ArrowT3_BronzePoison",
+   "items": [
+    "Poisoned Bronze Arrow"
+   ],
+   "element": "Poison"
+  },
+  "54ca46b6ed34f14f8323cd9d0fecc261": {
+   "template": "Projectile_Player_ArrowT3_Ivory",
+   "items": [
+    "Fossilized Bone Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "7027d0963c09be4caf5d85ff00f8fe5f": {
+   "template": "Projectile_Player_ArrowT3_Stun",
+   "items": [
+    "Stun Arrow"
+   ],
+   "element": "Blunt"
+  },
+  "3190202ebf850b4c8aa20eb92e8c5bd7": {
+   "template": "Projectile_Player_ArrowT4_Explosive",
+   "items": [
+    "Explosive Arrow III",
+    "Explosive Arrow II",
+    "Explosive Arrow I",
+    "Exploding Arrow IV"
+   ],
+   "element": "Fire"
+  },
+  "19370826898a7f4e8166fedf7b7fbe5b": {
+   "template": "Projectile_Player_ArrowT4_Iron",
+   "items": [
+    "Iron Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "36c42a3b89236d448569eaced92282ff": {
+   "template": "Projectile_Player_ArrowT4_IronPoison",
+   "items": [
+    "Poisoned Iron Arrow"
+   ],
+   "element": "Poison"
+  },
+  "08913eb39b8fcf4abf7e3ca63e9b6ea0": {
+   "template": "Projectile_Player_ArrowT5_Fog",
+   "items": [
+    "Shroud Arrow II"
+   ],
+   "element": "Shroud"
+  },
+  "38b627efe634a54b89086088f7bb4f49": {
+   "template": "Projectile_Player_ArrowT5_Obsidian",
+   "items": [
+    "Moonstone Arrow",
+    "Obsidian Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "3525cf7a0c5418489933f3f628dc4211": {
+   "template": "Projectile_Player_ArrowT5_Steel",
+   "items": [
+    "Golden Steel Arrow",
+    "Steel Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "5a81d748243acc429cc2364944349955": {
+   "template": "Projectile_Player_ArrowT5_SteelPoison",
+   "items": [
+    "Poisoned Steel Arrow"
+   ],
+   "element": "Poison"
+  },
+  "c43efc819b8f7243a0848a2937d01f1b": {
+   "template": "Projectile_Player_ArrowT6_SteelGoldPoison",
+   "items": [
+    "Poisoned Golden Steel Arrow"
+   ],
+   "element": "Poison"
+  },
+  "1aa1f142e93f1d47b1e8bfb8bf770192": {
+   "template": "Projectile_Player_ArrowT7_Fog",
+   "items": [
+    "Shroud Arrow III"
+   ],
+   "element": "Shroud"
+  },
+  "30f5407cef9056408fbd8508dedff152": {
+   "template": "Projectile_Player_ArrowT7_SteelCelestium",
+   "items": [
+    "Celestium Arrow"
+   ],
+   "element": "Pierce"
+  },
+  "06d8e52dccd3f7408626419e6b3778df": {
+   "template": "Projectile_Player_ArrowT7_SteelCelestiumPoison",
+   "items": [
+    "Poisoned Celestium Arrow"
+   ],
+   "element": "Poison"
+  },
+  "f658b7659bc7084d8300ed35ff7ddd0c": {
+   "template": "Projectile_Player_Staff_Fireball_1",
+   "items": [
+    "Fireball I"
+   ],
+   "element": "Fire"
+  },
+  "1bfd7fcd96645e43a63787e604db6deb": {
+   "template": "Projectile_Player_Staff_Fireball_2",
+   "items": [
+    "Fireball II"
+   ],
+   "element": "Fire"
+  },
+  "676699f665f3f24db934278945bf4ae0": {
+   "template": "Projectile_Player_Staff_Fireball_3",
+   "items": [
+    "Eternal Fireball I"
+   ],
+   "element": "Fire"
+  },
+  "d89115161fe3034595ab8f394ffa5474": {
+   "template": "Projectile_Player_Staff_Fireball_4",
+   "items": [
+    "Fireball III"
+   ],
+   "element": "Fire"
+  },
+  "683414dd72935b4e8a1a3a8aba7dbc4b": {
+   "template": "Projectile_Player_Staff_Fireball_5",
+   "items": [
+    "Eternal Fireball II"
+   ],
+   "element": "Fire"
+  },
+  "e4bb4446d7739e40a24c49301fe7f5aa": {
+   "template": "Projectile_Player_Staff_Fireball_6",
+   "items": [
+    "Fireball IV"
+   ],
+   "element": "Fire"
+  },
+  "4bb3b34ff4700e43977ca7e089ebb965": {
+   "template": "Projectile_Player_Staff_Fireball_7",
+   "items": [
+    "Eternal Fireball III"
+   ],
+   "element": "Fire"
+  },
+  "eb1780cd0bba76418bcad12aeb7380a3": {
+   "template": "Projectile_Player_Staff_Firebolt_1",
+   "items": [
+    "Fire Bolt VII",
+    "Fire Bolt II",
+    "Fire Bolt IV",
+    "Fire Bolt III",
+    "Fire Bolt I",
+    "Fire Bolt VI",
+    "Fire Bolt VIII",
+    "Fire Bolt V"
+   ],
+   "element": "Fire"
+  },
+  "e9e6253b835d6043baea5178ce43807a": {
+   "template": "Projectile_Player_Staff_Heal",
+   "items": [
+    "Eternal Chain Heal I"
+   ],
+   "element": "Healing"
+  },
+  "bfea9f329468964ea1112bb2fb0ef157": {
+   "template": "Projectile_Player_Staff_HealChannel",
+   "items": [
+    "Heal Cascade II",
+    "Eternal Heal Cascade I",
+    "Eternal Heal Cascade II"
+   ],
+   "element": "Healing"
+  },
+  "577cad10f18efd4d8c1249676a5b4e5c": {
+   "template": "Projectile_Player_Staff_IceBolt_1",
+   "items": [
+    "Eternal Ice Bolt I"
+   ],
+   "element": "Ice"
+  },
+  "a154836990e374458b84686ba60be8f6": {
+   "template": "Projectile_Player_Staff_IceBolt_1_NoExplosion",
+   "items": [
+    "Ice Bolt I"
+   ],
+   "element": "Ice"
+  },
+  "5f6915118d35b94e9adccb6b2bda7ce0": {
+   "template": "Projectile_Player_Staff_IceBolt_2",
+   "items": [
+    "Ice Bolt II"
+   ],
+   "element": "Ice"
+  },
+  "d188bbef0c1f414598eb16850bf8b2db": {
+   "template": "Projectile_Player_Staff_IceBolt_3",
+   "items": [
+    "Eternal Ice Bolt II"
+   ],
+   "element": "Ice"
+  },
+  "15da9f3bad1e2642ab22e0964b694312": {
+   "template": "Projectile_Player_Staff_IceBolt_4",
+   "items": [
+    "Ice Bolt III"
+   ],
+   "element": "Ice"
+  },
+  "793699064ad8624aa5bcb85a242d7d8e": {
+   "template": "Projectile_Player_Staff_IceBolt_5",
+   "items": [
+    "Eternal Ice Bolt III"
+   ],
+   "element": "Ice"
+  },
+  "10a73544e62f694783546dd21ab26304": {
+   "template": "Projectile_Player_Staff_IceBolt_6",
+   "items": [
+    "Ice Bolt IV"
+   ],
+   "element": "Ice"
+  },
+  "f3f153abed6af24b81615825944ebe80": {
+   "template": "Projectile_Player_Staff_IceBolt_7",
+   "items": [
+    "Eternal Ice Bolt IV"
+   ],
+   "element": "Ice"
+  },
+  "ee690d9ceb3f554cb11f8b639d009ccd": {
+   "template": "Projectile_Player_Staff_LightningBall_1",
+   "items": [
+    "Ball Lightning I"
+   ],
+   "element": "Lightning"
+  },
+  "40fc6623ed919a478d217dfc27bc604e": {
+   "template": "Projectile_Player_Staff_LightningBall_2",
+   "items": [
+    "Ball Lightning II"
+   ],
+   "element": "Lightning"
+  },
+  "326ebf076619e94fb4dff038cc278242": {
+   "template": "Projectile_Player_Staff_LightningBall_3",
+   "items": [
+    "Eternal Ball Lightning I"
+   ],
+   "element": "Lightning"
+  },
+  "47c7c868d08c714590c62654b53ca41a": {
+   "template": "Projectile_Player_T2_Arrow_Magic_Ice_Eternal",
+   "items": [
+    "Eternal Frost Arrow I"
+   ],
+   "element": "Ice"
+  },
+  "e04c17f19f7bc840a2082018a58e532c": {
+   "template": "Projectile_Player_T3_Arrow_Magic_Fire_Eternal",
+   "items": [
+    "Eternal Ember Arrow I"
+   ],
+   "element": "Fire"
+  },
+  "93968b9e1ff8bd4d82a2f9a638d7fe6f": {
+   "template": "Projectile_Player_T4_Arrow_Magic_Lightning_Eternal",
+   "items": [
+    "Eternal Voltaic Arrow I"
+   ],
+   "element": "Lightning"
+  },
+  "786e0512b4fb29499765be94c69b91b9": {
+   "template": "Projectile_Player_T5_Arrow_Magic_Fire_Eternal",
+   "items": [
+    "Eternal Ember Arrow II"
+   ],
+   "element": "Fire"
+  },
+  "a9ab43fce995684d95fdc245ef91fad0": {
+   "template": "Projectile_Player_T5_Arrow_Magic_Ice_Eternal",
+   "items": [
+    "Eternal Frost Arrow II"
+   ],
+   "element": "Ice"
+  },
+  "da845d80668e5747abee03271ada0155": {
+   "template": "Projectile_Player_T6_Arrow_Magic_Lightning_Eternal",
+   "items": [
+    "Eternal Voltaic Arrow II"
+   ],
+   "element": "Lightning"
+  },
+  "74a0dcd6dfb84b45a973608740cf86c4": {
+   "template": "Projectile_Player_T7_Arrow_Magic_Fire_Eternal",
+   "items": [
+    "Eternal Ember Arrow III"
+   ],
+   "element": "Fire"
+  },
+  "63909cc26da02b44997874293dbb1f54": {
+   "template": "Projectile_Player_T7_Arrow_Magic_Ice_Eternal",
+   "items": [
+    "Eternal Frost Arrow III"
+   ],
+   "element": "Ice"
+  },
+  "08f933ee967e9c44b1fe8596a1e7fe28": {
+   "template": "Projectile_Player_T7_Arrow_Magic_Lightning_Eternal",
+   "items": [
+    "Eternal Voltaic Arrow III"
+   ],
+   "element": "Lightning"
+  },
+  "9931df8e8f1b844d9205780259773393": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Fire_1",
+   "items": [
+    "Fire Totem I"
+   ],
+   "element": "Fire"
+  },
+  "86658a6f1cc3264a8765601ed4a7319a": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Fire_2",
+   "items": [
+    "Eternal Fire Totem I"
+   ],
+   "element": "Fire"
+  },
+  "382505d3d15eef4680aa194524d66540": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Fire_3",
+   "items": [
+    "Eternal Fire Totem II"
+   ],
+   "element": "Fire"
+  },
+  "542f0bb2ba85694da708a1423c919d94": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_1",
+   "items": [
+    "Ice Totem I"
+   ],
+   "element": "Ice"
+  },
+  "3d3a82c92515714f967116aebc168e04": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_2",
+   "items": [
+    "Eternal Ice Totem I"
+   ],
+   "element": "Ice"
+  },
+  "80f9403632e9874ebd4d5a95c6a8ac62": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_3",
+   "items": [
+    "Ice Totem II"
+   ],
+   "element": "Ice"
+  },
+  "a86978e84dc0df4c9783f6288f6edb81": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Ice_4",
+   "items": [
+    "Eternal Ice Totem II"
+   ],
+   "element": "Ice"
+  },
+  "54d2c1768b6f1244ad02ea58621c666c": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Lightning_1",
+   "items": [
+    "Shock Totem I"
+   ],
+   "element": "Lightning"
+  },
+  "e841180106ce3b43bf3327f0c7ca572c": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Lightning_2",
+   "items": [
+    "Shock Totem II"
+   ],
+   "element": "Lightning"
+  },
+  "c43be89175b27649b3c0098d3ca01ca3": {
+   "template": "Prop_Player_Ally_Totem_Projectile_Lightning_3",
+   "items": [
+    "Eternal Shock Totem"
+   ],
+   "element": "Lightning"
+  },
+  "679b92e68032d343b4098691f9848714": {
+   "template": "Zone_Spell_Blizzard_1",
+   "items": [
+    "Blizzard I"
+   ],
+   "element": "Ice"
+  },
+  "2f1884d7c46c33408485c4fca3b9eb62": {
+   "template": "Zone_Spell_Blizzard_2",
+   "items": [
+    "Blizzard II"
+   ],
+   "element": "Ice"
+  },
+  "52243a30d1ad7d42b9a3cb4a15108bd3": {
+   "template": "Zone_Spell_Blizzard_3",
+   "items": [
+    "Eternal Blizzard I"
+   ],
+   "element": "Ice"
+  },
+  "3b96ce913a7bb64bbd2abb427702995b": {
+   "template": "Zone_Spell_Blizzard_4",
+   "items": [
+    "Eternal Blizzard II"
+   ],
+   "element": "Ice"
+  },
+  "595e09f209c2794bb87b962cd5231750": {
+   "template": "Zone_Spell_Fire_Pillar_1",
+   "items": [
+    "Pillar Of Flames I"
+   ],
+   "element": "Fire"
+  },
+  "74f28dd91665fd4d92280e5d44fabdec": {
+   "template": "Zone_Spell_Fire_Pillar_2",
+   "items": [
+    "Pillar Of Flames II"
+   ],
+   "element": "Fire"
+  },
+  "be5c8427d8b1e843a7c86a0cb3da16e0": {
+   "template": "Zone_Spell_Fire_Pillar_3",
+   "items": [
+    "Pillar Of Flames III"
+   ],
+   "element": "Fire"
+  },
+  "ba2370a710406b46855461fd3e9a621b": {
+   "template": "Zone_Spell_Fire_Pillar_4",
+   "items": [
+    "Eternal Pillar Of Flames I"
+   ],
+   "element": "Fire"
+  },
+  "2bf14c5bbc163c4dbff24167e0d6c17d": {
+   "template": "Zone_Spell_MagicShield_1",
+   "items": [
+    "Protective Barrier"
+   ],
+   "element": ""
+  },
+  "f2902f0a0f3b1a4bb37e3a49eec6f349": {
+   "template": "Zone_Spell_MagicShield_2",
+   "items": [
+    "Eternal Protective Barrier"
+   ],
+   "element": ""
+  },
+  "3ea3b8ca1376af46bbe19ea527469b4e": {
+   "template": "Zone_Spell_Rooting_1",
+   "items": [
+    "Entangle I"
+   ],
+   "element": ""
+  },
+  "56721abe0d6f0d4b97d8d4ee5a1aab6a": {
+   "template": "Zone_Spell_Rooting_2",
+   "items": [
+    "Entangle II"
+   ],
+   "element": ""
+  },
+  "2266b1f90f4fa24d8ea8f70611a768ff": {
+   "template": "Zone_Spell_Rooting_3",
+   "items": [
+    "Entangle III"
+   ],
+   "element": ""
+  },
+  "59f2d81fff25ea43bab9a6a666437e05": {
+   "template": "Zone_Spell_Rooting_4",
+   "items": [
+    "Eternal Entangle"
+   ],
+   "element": ""
+  }
+ }
+}

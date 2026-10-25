@@ -1,0 +1,29 @@
+[package]
+name = "ens-desktop"
+description = "Desktop app for the Enshrouded planner (Tauri: Rust engine, WebView2 interface)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "planner-desktop"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+ens-data.workspace = true
+ens-calc.workspace = true
+ens-opt.workspace = true
+ens-overlay.workspace = true
+ens-inject = { path = "../ens-inject" }
+ab_glyph = "0.2"
+png = "0.18"
+tauri = { version = "2", features = [] }
+
+[target.'cfg(windows)'.dependencies]
+webview2-com = "0.39"
+windows = { version = "0.62", features = ["Win32_Foundation", "Win32_System_Com", "Win32_System_Com_StructuredStorage", "Win32_System_Memory"] }

@@ -1,0 +1,18 @@
+[package]
+name = "ens-cli"
+description = "Command line for the Enshrouded planner"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "ens"
+path = "src/main.rs"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+ens-data.workspace = true
+ens-calc.workspace = true
+ens-opt.workspace = true
+ens-overlay.workspace = true

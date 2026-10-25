@@ -1,0 +1,12 @@
+[package]
+name = "ens-hook"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Combat logger loaded into enshrouded.exe: records every ApplyDamage result to a CSV"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_System_Memory", "Win32_System_LibraryLoader", "Win32_System_SystemServices", "Win32_System_Threading", "Win32_System_ProcessStatus", "Win32_System_Diagnostics_Debug"] }

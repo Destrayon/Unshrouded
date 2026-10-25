@@ -1,0 +1,23 @@
+[package]
+name = "ens-app"
+description = "Desktop app for the Enshrouded planner (egui/eframe)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "enshrouded-planner"
+path = "src/main.rs"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+ens-data.workspace = true
+ens-calc.workspace = true
+ens-opt.workspace = true
+# AccessKit (accessibility tree) is left out: on Windows, programs that query it can stall the UI thread
+eframe = { version = "0.37.0", default-features = false, features = ["clipboard", "default_fonts", "links", "system_fonts", "wgpu"] }
+# winit with its default features (eframe's default would enable them)
+winit = "0.30"
+raw-window-handle = "0.6"
+image = { version = "0.25.10", default-features = false, features = ["png"] }

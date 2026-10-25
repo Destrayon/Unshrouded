@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["crates/ens-data", "crates/ens-calc", "crates/ens-opt", "crates/ens-cli", "crates/ens-app", "crates/ens-desktop", "crates/ens-hook", "crates/ens-inject", "crates/ens-overlay"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ens-data = { path = "crates/ens-data" }
+ens-calc = { path = "crates/ens-calc" }
+ens-opt = { path = "crates/ens-opt" }
+ens-overlay = { path = "crates/ens-overlay" }
+
+[profile.release]
+opt-level = 3
+lto = "thin"

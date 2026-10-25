@@ -1,0 +1,24 @@
+[package]
+name = "ens-overlay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Vulkan layer that draws the damage meter into Enshrouded's frames (docs/plans/game-overlay.md)"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+ash = { version = "0.38", default-features = false, features = ["debug"] }
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_System_LibraryLoader", "Win32_System_Registry", "Win32_Security", "Win32_Graphics_Gdi", "Win32_UI_WindowsAndMessaging", "Win32_UI_Input_KeyboardAndMouse"] }
+
+[dev-dependencies]
+ash = { version = "0.38", default-features = false, features = ["debug", "loaded"] }
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_Graphics_Gdi", "Win32_System_LibraryLoader", "Win32_UI_WindowsAndMessaging", "Win32_UI_Input_KeyboardAndMouse"] }
+
+[[example]]
+name = "diag"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+naga = { version = "30", features = ["wgsl-in", "spv-out"] }

@@ -1,0 +1,17 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "The planner window, the live meter and its in-game copy: core features only (the app's own commands need no extra permission)",
+  "windows": [
+    "main",
+    "meter",
+    "overlay",
+    "tip",
+    "tip-game"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-close"
+  ]
+}

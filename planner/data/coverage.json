@@ -1,0 +1,5183 @@
+{
+  "archetypes": [
+    "bow",
+    "staff",
+    "wand",
+    "one-hand sword",
+    "greatsword",
+    "two-hand hammer",
+    "dagger",
+    "throwable",
+    "unarmed",
+    "summoner"
+  ],
+  "attributes": {
+    "AllyAggroMultiplier": [],
+    "Armor_Magical_Mod": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Armor_Physical_Mod": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Constitution_Base": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "CritChance_Adder": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "CritChance_Adder_Magic": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "CritChance_Adder_Melee": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "CritChance_Adder_Ranged": [
+      "bow"
+    ],
+    "CritChance_Adder_Vs_Soaked": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "CritDamageMod_Adder": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "CritDamageMod_Vs_Soaked": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Ancients": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Drak": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Fogger": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Scavenger": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Skeleton": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Vukah": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Faction_Wildlife_Wildbeast": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Flying": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModAgainst_Ranged": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModBackstab_Adder": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageModMerciless_Adder": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "DamageModSkillShot_Adder": [
+      "bow"
+    ],
+    "DamageModSneak_Adder": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "DamageSusceptibility_Blunt": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Cut": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Fire": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Fog": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Ice": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Lightning": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Pierce": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "DamageSusceptibility_Poison": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Dexterity_Base": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Durability": [],
+    "Endurance_Base": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "EnemyTargetSelectionBonus": [],
+    "FishingEndurance_Adder": [],
+    "FogResistance": [],
+    "FogResistance_MaxAdder": [],
+    "FogResistance_MaxSubstract": [],
+    "FreezingResistance_Base": [],
+    "HealingMod_Adder": [],
+    "Health": [],
+    "Health_Max_Adder": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Health_Recharge": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Intelligence_Base": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "MagicDamageMod": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Magical_Fire": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Magical_Fog": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Magical_Ice": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Magical_Lightning": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Physical_Blunt": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Physical_Cut": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "MagicDamageMod_Physical_Pierce": [
+      "staff",
+      "wand",
+      "summoner"
+    ],
+    "Mana": [],
+    "ManaCostMod": [
+      "bow",
+      "staff",
+      "summoner"
+    ],
+    "Mana_Max_Adder": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Mana_Recharge": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "MaxSkeletonSpellCount": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "MaxTotemCount": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "MeleeDamageMod": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Magical_Fire": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Magical_Fog": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Magical_Ice": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Magical_Lightning": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Physical_Blunt": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Physical_Cut": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "MeleeDamageMod_Physical_Pierce": [
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed"
+    ],
+    "Movement_Mod": [],
+    "Movement_Sneak": [],
+    "Movement_Sprint": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Oxygen_MaxAdder": [],
+    "ParryProficiency_Multiplier": [],
+    "RangedCombat_Spell_ChargeDurationMod": [
+      "staff",
+      "summoner"
+    ],
+    "RangedDamageMod": [
+      "bow"
+    ],
+    "RangedDamageMod_Magical_Fire": [
+      "bow"
+    ],
+    "RangedDamageMod_Magical_Fog": [
+      "bow"
+    ],
+    "RangedDamageMod_Magical_Ice": [
+      "bow"
+    ],
+    "RangedDamageMod_Magical_Lightning": [
+      "bow"
+    ],
+    "RangedDamageMod_Physical_Blunt": [
+      "bow"
+    ],
+    "RangedDamageMod_Physical_Cut": [
+      "bow"
+    ],
+    "RangedDamageMod_Physical_Pierce": [
+      "bow"
+    ],
+    "Rested_MinDuration": [],
+    "Revive_Delay_Base": [],
+    "Revive_Healing_Percentage": [],
+    "Spirit_Base": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Stamina": [],
+    "StaminaDamageMod_Melee": [],
+    "StaminaDepletionMod_Climb": [],
+    "StaminaDepletionMod_Glider": [],
+    "StaminaDepletionMod_Sprint": [],
+    "StaminaRechargeMod": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Stamina_Max_Adder": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Stamina_Recharge": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "Strength_Base": [
+      "bow",
+      "staff",
+      "wand",
+      "one-hand sword",
+      "greatsword",
+      "two-hand hammer",
+      "dagger",
+      "throwable",
+      "unarmed",
+      "summoner"
+    ],
+    "ToolDamageMod_Metal": [],
+    "ToolDamageMod_Stone": [],
+    "ToolDamageMod_Wood": [],
+    "WeaponCategoryDamageMod_Bow": [
+      "bow"
+    ],
+    "WeaponCategoryDamageMod_Dagger": [
+      "dagger"
+    ],
+    "WeaponCategoryDamageMod_GreatSword": [
+      "greatsword"
+    ],
+    "WeaponCategoryDamageMod_Single": [
+      "one-hand sword"
+    ],
+    "WeaponCategoryDamageMod_Staff": [
+      "staff",
+      "summoner"
+    ],
+    "WeaponCategoryDamageMod_Throwable": [
+      "throwable"
+    ],
+    "WeaponCategoryDamageMod_TwoHand": [
+      "two-hand hammer"
+    ],
+    "WeaponCategoryDamageMod_Unarmed": [
+      "unarmed"
+    ],
+    "WeaponCategoryDamageMod_Wand": [
+      "wand"
+    ]
+  },
+  "entries": {
+    "buff item:0c64defd51e5ef46a56d3c0c2f521f71": {
+      "class": "outside combat numbers",
+      "name": "Greater Shroud Survival Flask",
+      "note": "",
+      "unread": []
+    },
+    "buff item:0daa4f7c9ff06045ab4a9406e310b311": {
+      "class": "outside combat numbers",
+      "name": "Eternal Shroud Beam",
+      "note": "",
+      "unread": []
+    },
+    "buff item:0f5ac00fb193514ab0705ba1c7294ac0": {
+      "class": "outside combat numbers",
+      "name": "Pocket Heater",
+      "note": "",
+      "unread": []
+    },
+    "buff item:13bf90df1e0fe3479adfba294f7c72ac": {
+      "class": "counted",
+      "name": "Drak Soulward Flask",
+      "note": "",
+      "unread": []
+    },
+    "buff item:1a3eb78fce875c41959344b9d6791417": {
+      "class": "outside combat numbers",
+      "name": "Greater Antidote",
+      "note": "",
+      "unread": []
+    },
+    "buff item:1c7a5c6a06c98a4c834f09c0cc36f479": {
+      "class": "outside combat numbers",
+      "name": "Flask of the Fell",
+      "note": "",
+      "unread": []
+    },
+    "buff item:2df662141d1b0945ba6b1ab52ea7bbff": {
+      "class": "outside combat numbers",
+      "name": "Shroud Meteor",
+      "note": "",
+      "unread": []
+    },
+    "buff item:4a21f03d6c9ec848a17eebf285139e07": {
+      "class": "outside combat numbers",
+      "name": "Greater Shroud Survival Flask",
+      "note": "",
+      "unread": []
+    },
+    "buff item:57a0a547ed03b94196069f86bdae2367": {
+      "class": "outside combat numbers",
+      "name": "Shroud Survival Flask",
+      "note": "",
+      "unread": []
+    },
+    "buff item:6fe9addb3d00b5449e7a96f824d1ec99": {
+      "class": "outside combat numbers",
+      "name": "Fell Curse Cleansing Tonic",
+      "note": "",
+      "unread": []
+    },
+    "buff item:71f8aafaef52c24f9a70e8c8e73d89d2": {
+      "class": "outside combat numbers",
+      "name": "Ice Protection Lotion",
+      "note": "",
+      "unread": []
+    },
+    "buff item:83b503e511029d4a94f9122cffce89ca": {
+      "class": "outside combat numbers",
+      "name": "Diver’s Endurance Flask",
+      "note": "",
+      "unread": []
+    },
+    "buff item:848d14ff0225fb4f9a1d7282ba0bcdbc": {
+      "class": "counted",
+      "name": "Prayer of the Flame Scroll",
+      "note": "",
+      "unread": []
+    },
+    "buff item:84f35a4e4bebe445b5858fd5a740060a": {
+      "class": "outside combat numbers",
+      "name": "Shroud Meteor Scroll",
+      "note": "",
+      "unread": []
+    },
+    "buff item:972e4b296d117d4eb436cf6b4d7b3210": {
+      "class": "outside combat numbers",
+      "name": "Hemotoxin Antidote",
+      "note": "",
+      "unread": []
+    },
+    "buff item:b3319f61a628c245855e4beb9730f473": {
+      "class": "counted",
+      "name": "Sacred Vukah Scroll",
+      "note": "",
+      "unread": []
+    },
+    "buff item:c291753d12b9644dadca587f31706b82": {
+      "class": "outside combat numbers",
+      "name": "Veilwater Basin Sand",
+      "note": "",
+      "unread": []
+    },
+    "buff item:de024e70aab08d46bb26fe29539af1ec": {
+      "class": "counted",
+      "name": "Mysterious Flask",
+      "note": "",
+      "unread": []
+    },
+    "buff item:f54b9e0671a1914b9c64c705dfb0c4e1": {
+      "class": "outside combat numbers",
+      "name": "Shroud Beam",
+      "note": "",
+      "unread": []
+    },
+    "buff item:fd37381a4c47734da55ef0422d52463a": {
+      "class": "outside combat numbers",
+      "name": "Eternal Shroud Meteor",
+      "note": "",
+      "unread": []
+    },
+    "damage item:6df53974b8b6a149a9d80262310bec16": {
+      "class": "not counted",
+      "name": "Fire Wisp Summon",
+      "note": "deals damage, but the game data has no template for what it summons, so it is not modeled",
+      "unread": []
+    },
+    "food:00a3c983d27ed74180fbed92b1367ff4": {
+      "class": "counted",
+      "name": "Coconana Smoothie",
+      "note": "",
+      "unread": []
+    },
+    "food:01767700b7ba3e468f2a9a4bed48ae33": {
+      "class": "counted",
+      "name": "Stir-Fried Vegetables",
+      "note": "",
+      "unread": []
+    },
+    "food:020c4e41decfad46b01f9963e828c48e": {
+      "class": "counted",
+      "name": "Ectoplasm Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:024401c821d1d245982fea166b67793f": {
+      "class": "counted",
+      "name": "Calla Luna Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:038c33111a5ab146bb867ff85da76b5c": {
+      "class": "counted",
+      "name": "Midnight Lily",
+      "note": "",
+      "unread": []
+    },
+    "food:076d8efdaa982849b5116007ed5ab42d": {
+      "class": "counted",
+      "name": "Roasted Corncob",
+      "note": "",
+      "unread": []
+    },
+    "food:09cdf5eb1c1a7246bd109e23b541ad81": {
+      "class": "counted",
+      "name": "Grandleaf Cabbage Rolls",
+      "note": "",
+      "unread": []
+    },
+    "food:0abbc3324409be4bba10d9b20e244e2a": {
+      "class": "counted",
+      "name": "Algae",
+      "note": "",
+      "unread": []
+    },
+    "food:0cf6cb4a48c6e348bef4c5f4fbe5ed8d": {
+      "class": "counted",
+      "name": "Hazelnut",
+      "note": "",
+      "unread": []
+    },
+    "food:0f5ce0c6634ab742904c47af6a44da1b": {
+      "class": "counted",
+      "name": "Grilled Fatty Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:11ea359732ba92409c6f4ebc1f123be5": {
+      "class": "counted",
+      "name": "Plantain Curry",
+      "note": "",
+      "unread": []
+    },
+    "food:164a690da165ab42bb794dc72bee9db7": {
+      "class": "counted",
+      "name": "Penny Bun",
+      "note": "",
+      "unread": []
+    },
+    "food:193fde79d3e80846aad22a58dfacbf40": {
+      "class": "counted",
+      "name": "Thyme Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:1c4b36a038ede943ba2a706a32ea96d1": {
+      "class": "counted",
+      "name": "Grilled Shadowtail",
+      "note": "",
+      "unread": []
+    },
+    "food:1f4ec6cf203ff647a09f830bc8a03ead": {
+      "class": "counted",
+      "name": "Flat Bread",
+      "note": "",
+      "unread": []
+    },
+    "food:207dcceeca3ba140b5ac303937499ac8": {
+      "class": "counted",
+      "name": "Raw Taro",
+      "note": "",
+      "unread": []
+    },
+    "food:2106a1195e3d664aa80cd07199ca4469": {
+      "class": "counted",
+      "name": "Grilled Thornridge",
+      "note": "",
+      "unread": []
+    },
+    "food:23671a4cf492ff4f99a6f838d3170c89": {
+      "class": "counted",
+      "name": "Strawberry",
+      "note": "",
+      "unread": []
+    },
+    "food:24c2e10b99051844be32d9a47614d741": {
+      "class": "counted",
+      "name": "Grilled Lakehopper",
+      "note": "",
+      "unread": []
+    },
+    "food:25318246d6c1f243b1e57d892a70e750": {
+      "class": "counted",
+      "name": "Boiled Eggs",
+      "note": "",
+      "unread": []
+    },
+    "food:25dcbedb60769943803c4d15ee70ed0f": {
+      "class": "counted",
+      "name": "Purple Berry Cake",
+      "note": "",
+      "unread": []
+    },
+    "food:270ec501cf80214391c64f947423509d": {
+      "class": "counted",
+      "name": "Pumpkin",
+      "note": "",
+      "unread": []
+    },
+    "food:2823b6a7b01dba46a127949395fbf97d": {
+      "class": "counted",
+      "name": "Date",
+      "note": "",
+      "unread": []
+    },
+    "food:29c8b0db705bb04598ef3ec7f4a2d92a": {
+      "class": "counted",
+      "name": "Roasted Shiitake Mushroom",
+      "note": "",
+      "unread": []
+    },
+    "food:2a292f998be28a44b5d9412aa25244c7": {
+      "class": "counted",
+      "name": "Raw Game",
+      "note": "",
+      "unread": []
+    },
+    "food:2e1da77608e51341abefd49b144ca7d2": {
+      "class": "counted",
+      "name": "Seared Fish Filet",
+      "note": "",
+      "unread": []
+    },
+    "food:3401392eaec1b04d8dec5648ea44d2b0": {
+      "class": "counted",
+      "name": "Raw Fatty Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:36030dbb95a7574b9ee02774dde5b1a6": {
+      "class": "counted",
+      "name": "Grilled Shockfin",
+      "note": "",
+      "unread": []
+    },
+    "food:36f13180b970344c92746f818ab03d12": {
+      "class": "counted",
+      "name": "Popcorn",
+      "note": "",
+      "unread": []
+    },
+    "food:38e6b264e65f1f478fc97cb939ccb876": {
+      "class": "counted",
+      "name": "Shadowbloom Wrap",
+      "note": "",
+      "unread": []
+    },
+    "food:3969366ba0b2cb4da20c932a5cc1c1b9": {
+      "class": "counted",
+      "name": "Roasted Azure Russula",
+      "note": "",
+      "unread": []
+    },
+    "food:3a836e12df2fc24fb9687964ab781f87": {
+      "class": "counted",
+      "name": "Frizzy Goat Milk",
+      "note": "",
+      "unread": []
+    },
+    "food:3c0253c12903304d82778e8f56b3b06a": {
+      "class": "counted",
+      "name": "Algae Salad",
+      "note": "",
+      "unread": []
+    },
+    "food:3c54817e024f164fafe8a0d0435453d3": {
+      "class": "counted",
+      "name": "Creamy Mushroom Spaetzle",
+      "note": "",
+      "unread": []
+    },
+    "food:3e6cde4ba88e38478db682b9581f6e46": {
+      "class": "counted",
+      "name": "Beef Stew",
+      "note": "",
+      "unread": []
+    },
+    "food:3ef4b5883614dc499b1ac58a5a6a2159": {
+      "class": "counted",
+      "name": "Aureolin Flower",
+      "note": "",
+      "unread": []
+    },
+    "food:3f1f5b4b8d970c4daf417fdcbd95f207": {
+      "class": "counted",
+      "name": "Water Pouch",
+      "note": "",
+      "unread": []
+    },
+    "food:422fb7a105076d47a9796340871f065f": {
+      "class": "counted",
+      "name": "Bloomheart Fruit",
+      "note": "",
+      "unread": []
+    },
+    "food:45129bdbbd9f164d919cf53c6563a3b5": {
+      "class": "counted",
+      "name": "Raw Dune Armadillo Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:45f97cb05d5f1a4280a12549b8fb1b4a": {
+      "class": "counted",
+      "name": "Ginger Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:478504d541d55747bb3167a0ffd62d4c": {
+      "class": "counted",
+      "name": "Fried Rice",
+      "note": "",
+      "unread": []
+    },
+    "food:49091249c81e1f47b6938b4948970a8d": {
+      "class": "counted",
+      "name": "Excellent Ectoplasm Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:493b552bc5efe745a66ac680927fd5a1": {
+      "class": "counted",
+      "name": "Corncob",
+      "note": "",
+      "unread": []
+    },
+    "food:493e9876b564a743ba512b12faaade70": {
+      "class": "counted",
+      "name": "Grilled Specklefin",
+      "note": "",
+      "unread": []
+    },
+    "food:4fcae89028195345a6ca32f28e866987": {
+      "class": "counted",
+      "name": "Sweet Mokka",
+      "note": "",
+      "unread": []
+    },
+    "food:514b6123d1e1a741badd88218bd90b65": {
+      "class": "counted",
+      "name": "Meat and Hazelnut Skewer",
+      "note": "",
+      "unread": []
+    },
+    "food:5151e7b2de505a4d8c28588febacef29": {
+      "class": "counted",
+      "name": "Grilled Shimmerfin",
+      "note": "",
+      "unread": []
+    },
+    "food:5234541069c03e40b0bfd4c6c72e0086": {
+      "class": "counted",
+      "name": "Black Coffee",
+      "note": "",
+      "unread": []
+    },
+    "food:57016bb12196a64ebfa5e90bedb6e762": {
+      "class": "counted",
+      "name": "Gloomberry",
+      "note": "",
+      "unread": []
+    },
+    "food:57da8fb8513e8949a9ba897cfc13bc64": {
+      "class": "counted",
+      "name": "Meat and Tomato Skewer",
+      "note": "",
+      "unread": []
+    },
+    "food:5c4a20687457e449bb0bd9d403fe4496": {
+      "class": "counted",
+      "name": "Thyme",
+      "note": "",
+      "unread": []
+    },
+    "food:5f1184938dc52046b8035cb8013bd116": {
+      "class": "counted",
+      "name": "Strawberry Milkshake",
+      "note": "",
+      "unread": []
+    },
+    "food:619ee9526e596f46adc03e041d655627": {
+      "class": "counted",
+      "name": "Crab Cakes",
+      "note": "",
+      "unread": []
+    },
+    "food:61ab23d44c91df41b31690c6041df5bc": {
+      "class": "counted",
+      "name": "Raw Lean Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:62a7e64d0bb8564695e45683c068ffd9": {
+      "class": "counted",
+      "name": "Chanterelle",
+      "note": "",
+      "unread": []
+    },
+    "food:63000b7acfa0f149a076837432adbdc4": {
+      "class": "counted",
+      "name": "Prickle Pearl",
+      "note": "",
+      "unread": []
+    },
+    "food:63cacdadf410c743896101e434210f68": {
+      "class": "counted",
+      "name": "Milk",
+      "note": "",
+      "unread": []
+    },
+    "food:69217b6a51ae464bb3defa6f7c11c23d": {
+      "class": "counted",
+      "name": "Meat and Forest Beet Skewer",
+      "note": "",
+      "unread": []
+    },
+    "food:6a1ad61173e31144a8206cbc3485a866": {
+      "class": "counted",
+      "name": "Sugar Cane",
+      "note": "",
+      "unread": []
+    },
+    "food:6b0da6fd18bbf44fb6ca9d7ec10d4cdf": {
+      "class": "counted",
+      "name": "Meat and Azure Russula Skewer",
+      "note": "",
+      "unread": []
+    },
+    "food:6b69501822c0fd4a8778847cb16fb961": {
+      "class": "counted",
+      "name": "Shiitake Mushroom",
+      "note": "",
+      "unread": []
+    },
+    "food:6cdf79230d78c140920e7f34772f37f0": {
+      "class": "counted",
+      "name": "Vegetable Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:6d7e315724a4224692a0b50a63503a9d": {
+      "class": "counted",
+      "name": "Exotic Fruit Salad",
+      "note": "",
+      "unread": []
+    },
+    "food:72c256e7d595e149a0fce8c7012d5f93": {
+      "class": "counted",
+      "name": "Crab Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:74735dadbe9005428156bdcc6fa68a34": {
+      "class": "counted",
+      "name": "Grilled Algae Buds",
+      "note": "",
+      "unread": []
+    },
+    "food:74be73eb3507d74bb7a5b16579eb5fb0": {
+      "class": "counted",
+      "name": "Spiced Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:76526048adf4b94ebf789f360262473c": {
+      "class": "counted",
+      "name": "Grilled Cinderscale",
+      "note": "",
+      "unread": []
+    },
+    "food:7762f167d10dbc45a5e54f9a4e7798e5": {
+      "class": "counted",
+      "name": "Grapple Plant",
+      "note": "",
+      "unread": []
+    },
+    "food:782512f7fc857e48bfebbd194c10dfd7": {
+      "class": "counted",
+      "name": "Banana",
+      "note": "",
+      "unread": []
+    },
+    "food:78a6da8ff165b641911f29e599182faa": {
+      "class": "counted",
+      "name": "Cabbage Mushroom Rice",
+      "note": "",
+      "unread": []
+    },
+    "food:78ad6a2de8323241bc887f57bfb9e391": {
+      "class": "counted",
+      "name": "Buttermilk",
+      "note": "",
+      "unread": []
+    },
+    "food:78da8fb49ed7484fae982c7ec66c8022": {
+      "class": "counted",
+      "name": "Grilled Game",
+      "note": "",
+      "unread": []
+    },
+    "food:7ed07b886d98234e92963a12defef470": {
+      "class": "counted",
+      "name": "Grilled Wolf Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:801fe0b61c31a94e855158aec6dfbc49": {
+      "class": "counted",
+      "name": "Grilled Stripetail",
+      "note": "",
+      "unread": []
+    },
+    "food:80ba6298dffc4243907a758ea6f30d74": {
+      "class": "counted",
+      "name": "Aurora Bean Rice",
+      "note": "",
+      "unread": []
+    },
+    "food:8171ab9e6db9684babf4424802fee46c": {
+      "class": "counted",
+      "name": "Candied Ginger",
+      "note": "",
+      "unread": []
+    },
+    "food:8483ee6d3fad4c4ea7cf2499d34da093": {
+      "class": "counted",
+      "name": "Plantain",
+      "note": "",
+      "unread": []
+    },
+    "food:8a07c3d2ad605b4aa0a7aafaecf2e198": {
+      "class": "counted",
+      "name": "Grilled Yellowfin",
+      "note": "",
+      "unread": []
+    },
+    "food:8e30070dcddc884c96b8c32a7ed34442": {
+      "class": "counted",
+      "name": "Greater Ectoplasm Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:90578214b9fb0f4ea489b06b35a98a9c": {
+      "class": "counted",
+      "name": "Grilled Yucca Fruit",
+      "note": "",
+      "unread": []
+    },
+    "food:920f37ddd495ed4db44aadd4c8041b1a": {
+      "class": "counted",
+      "name": "Pumpkin Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:9272c5fffc978247b688ce21548ce07e": {
+      "class": "counted",
+      "name": "Seared Fish Cutlet",
+      "note": "",
+      "unread": []
+    },
+    "food:9af18b5e83479045b70f38c795f21516": {
+      "class": "counted",
+      "name": "Rooibos Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:9bb368b2d09a5541ae75c929898d55b6": {
+      "class": "outside combat numbers",
+      "name": "Butter",
+      "note": "",
+      "unread": []
+    },
+    "food:9deed4adf9f7f541b6480f14eca3fd8f": {
+      "class": "counted",
+      "name": "Raw Bird Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:9e2f8b5a8fb8ac4f99f150c45b09d640": {
+      "class": "counted",
+      "name": "Stinging Nettle",
+      "note": "",
+      "unread": []
+    },
+    "food:9f7d9157fce16c4fb0ca261d539e7e62": {
+      "class": "counted",
+      "name": "Grilled Whiskerfin",
+      "note": "",
+      "unread": []
+    },
+    "food:a2726aa8bcb974449a3f28c2758c74fa": {
+      "class": "counted",
+      "name": "Gentian",
+      "note": "",
+      "unread": []
+    },
+    "food:a919f93408b0444bb17f79fa6312062d": {
+      "class": "counted",
+      "name": "Aurora Beans",
+      "note": "",
+      "unread": []
+    },
+    "food:a9b5402fa394b147967d6f86c51e3000": {
+      "class": "counted",
+      "name": "Grilled Silverback",
+      "note": "",
+      "unread": []
+    },
+    "food:aca228e4654e124a992a6d8ac3da428d": {
+      "class": "counted",
+      "name": "Vegetable Puree",
+      "note": "",
+      "unread": []
+    },
+    "food:af73c72280d24442ba3ab229bdb00213": {
+      "class": "counted",
+      "name": "Pearlbloom Nectar",
+      "note": "",
+      "unread": []
+    },
+    "food:b0c08295e5f615429e0838df4a61f4c7": {
+      "class": "counted",
+      "name": "Fish Cutlet",
+      "note": "",
+      "unread": []
+    },
+    "food:b123f98e8e714043bdfa6529379fb24c": {
+      "class": "counted",
+      "name": "Honey",
+      "note": "",
+      "unread": []
+    },
+    "food:b1b0bd0297f24848bedd5abfc985ac14": {
+      "class": "counted",
+      "name": "Grilled Crab Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:b3d22beee46c5d4581568af3fb0157b8": {
+      "class": "counted",
+      "name": "Open Sandwich",
+      "note": "",
+      "unread": []
+    },
+    "food:b50b2049df2edd4f9fbf99dab867bbff": {
+      "class": "counted",
+      "name": "Extraordinary Ectoplasm Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:b682e706553a184f8fa1b331c58ba93f": {
+      "class": "counted",
+      "name": "Sushi",
+      "note": "",
+      "unread": []
+    },
+    "food:b76053f3153ddf4388c8fd696e2593be": {
+      "class": "counted",
+      "name": "Sugar",
+      "note": "",
+      "unread": []
+    },
+    "food:b82ca9f40972b549962f96518fc6a7ca": {
+      "class": "counted",
+      "name": "Glimmer Gentian Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:b98004d9c072be4f956e585fcaa2c279": {
+      "class": "counted",
+      "name": "Dried Purple Berry",
+      "note": "",
+      "unread": []
+    },
+    "food:b9a47ebcef74db40b021fc9d7f258913": {
+      "class": "counted",
+      "name": "Chamomile Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:b9d8f650075b5b4fb35cd54bd2a315d2": {
+      "class": "counted",
+      "name": "Tomato",
+      "note": "",
+      "unread": []
+    },
+    "food:bc9fd08fc4a78249aab673853ccf7795": {
+      "class": "counted",
+      "name": "Sage Leaves",
+      "note": "",
+      "unread": []
+    },
+    "food:bd2028ffd38a584086cedd166a53b9d8": {
+      "class": "counted",
+      "name": "Grilled Waveleaper",
+      "note": "",
+      "unread": []
+    },
+    "food:bee0c924d940aa48b6ec0dbb354abf65": {
+      "class": "counted",
+      "name": "Eggs",
+      "note": "",
+      "unread": []
+    },
+    "food:bf001d520d9b084da98b54ab9e1c04e3": {
+      "class": "counted",
+      "name": "Meat and Corncob Skewer",
+      "note": "",
+      "unread": []
+    },
+    "food:bfc34b6a10569d4fa2dc872b9de035ac": {
+      "class": "counted",
+      "name": "Yellow Glow Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:c2bfbe3534bab94bbb2dc098238121d0": {
+      "class": "counted",
+      "name": "Exceptional Ectoplasm Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:c3b2663208d6d74297c80318cfa38b4a": {
+      "class": "counted",
+      "name": "Cooked Fae Deer Milk",
+      "note": "",
+      "unread": []
+    },
+    "food:c4d6656608fe804d937de79d7a820e53": {
+      "class": "counted",
+      "name": "Grilled Crimsonback",
+      "note": "",
+      "unread": []
+    },
+    "food:c50a34a835ca954ba5893ff9cb0b909b": {
+      "class": "counted",
+      "name": "Dried Banana Chips",
+      "note": "",
+      "unread": []
+    },
+    "food:c717cbade369fb4da038a9b93f656b08": {
+      "class": "counted",
+      "name": "Herbal Mountain Tea",
+      "note": "",
+      "unread": []
+    },
+    "food:cae72cbc2ba2c649bd61a6244a65b97a": {
+      "class": "counted",
+      "name": "Meat and Mushroom Skewer",
+      "note": "",
+      "unread": []
+    },
+    "food:cba01ab59d16144e983ce61127ed8e45": {
+      "class": "counted",
+      "name": "Fish Filet",
+      "note": "",
+      "unread": []
+    },
+    "food:cca82dd0410163498f6fd5d8c0e50d9a": {
+      "class": "counted",
+      "name": "Glow Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:d07232f4587a1545abed4798c8941478": {
+      "class": "counted",
+      "name": "Uncooked Fae Deer Milk",
+      "note": "",
+      "unread": []
+    },
+    "food:d3adcbd3f534374192f103d56c779827": {
+      "class": "counted",
+      "name": "Grilled Emberfin",
+      "note": "",
+      "unread": []
+    },
+    "food:d438cec9cc78f44fb3de7f134fcb8d0d": {
+      "class": "counted",
+      "name": "Grilled Lean Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:d4a93ad0463edb45a81cbd6cd57ce554": {
+      "class": "counted",
+      "name": "Tomato Fish Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:d56569d32f4e6947859fb10fe3155914": {
+      "class": "counted",
+      "name": "Bell Pepper",
+      "note": "",
+      "unread": []
+    },
+    "food:d585768c1d6e8c41afc51fd9b40e723e": {
+      "class": "counted",
+      "name": "Grilled Bird Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:d5d6e3c31c7bf84a8e10e0e0fcd591d2": {
+      "class": "counted",
+      "name": "Coconut",
+      "note": "",
+      "unread": []
+    },
+    "food:daa09a385f40f04fba49daf4381aec43": {
+      "class": "counted",
+      "name": "Grandleaf Cabbage",
+      "note": "",
+      "unread": []
+    },
+    "food:dabfceaa54ef3947948f92f89a4867ff": {
+      "class": "counted",
+      "name": "Honey Baked Banana",
+      "note": "",
+      "unread": []
+    },
+    "food:db129c74613f3f488ba02dd1a037bdf9": {
+      "class": "counted",
+      "name": "Forest Beet",
+      "note": "",
+      "unread": []
+    },
+    "food:db5a836fecdada45a5848f66a6d0a751": {
+      "class": "counted",
+      "name": "Coconut Milk",
+      "note": "",
+      "unread": []
+    },
+    "food:dd2c77bf6fc65e4cb262551a4e815dc6": {
+      "class": "counted",
+      "name": "Meat Wrap",
+      "note": "",
+      "unread": []
+    },
+    "food:e2b1bf498afaa4459b6625d6d865ae0f": {
+      "class": "counted",
+      "name": "Ginger",
+      "note": "",
+      "unread": []
+    },
+    "food:e4c39817cd896341a2515d2ddd66f548": {
+      "class": "counted",
+      "name": "Fish Chowder",
+      "note": "",
+      "unread": []
+    },
+    "food:e59ea5d5af760042b219d4da6fcaa8c3": {
+      "class": "counted",
+      "name": "Grilled Dune Armadillo",
+      "note": "",
+      "unread": []
+    },
+    "food:eb528e3f0ca550499cd91d4f52279dbc": {
+      "class": "counted",
+      "name": "Algae Buds",
+      "note": "",
+      "unread": []
+    },
+    "food:eb98f093d116354ca95a4471bd53ef06": {
+      "class": "counted",
+      "name": "Mushroom Omelette",
+      "note": "",
+      "unread": []
+    },
+    "food:ebf9c741555cf9448912ab294d3957a3": {
+      "class": "counted",
+      "name": "Taro Root Curry",
+      "note": "",
+      "unread": []
+    },
+    "food:ec5280a55eb09542891eea687e20dfe8": {
+      "class": "counted",
+      "name": "Chicken Soup",
+      "note": "",
+      "unread": []
+    },
+    "food:ed6d3739b7c5c545bfb1e8ef58e5a72b": {
+      "class": "counted",
+      "name": "Water",
+      "note": "",
+      "unread": []
+    },
+    "food:efeec0e69db3f24ea78c1baa24bc115d": {
+      "class": "counted",
+      "name": "Azure Russula",
+      "note": "",
+      "unread": []
+    },
+    "food:f02d9b67059dbc47a9d53de77b268a0f": {
+      "class": "counted",
+      "name": "Yucca Fruit",
+      "note": "",
+      "unread": []
+    },
+    "food:f0a0385d0c9c3f43abca148dfea9bf1e": {
+      "class": "counted",
+      "name": "Plantain Salad with Aurora Beans",
+      "note": "",
+      "unread": []
+    },
+    "food:f25445f4bfc2b34996c62405475b4fa8": {
+      "class": "counted",
+      "name": "Strawberry Cake",
+      "note": "",
+      "unread": []
+    },
+    "food:f2da83cc5da64b4ab25ef8c2503253e4": {
+      "class": "counted",
+      "name": "Fruit Bowl",
+      "note": "",
+      "unread": []
+    },
+    "food:f3407d41ea29bc439f1df4c069077780": {
+      "class": "counted",
+      "name": "Fish Tacos",
+      "note": "",
+      "unread": []
+    },
+    "food:f5caaa85be8c5440bff07c9f741402a5": {
+      "class": "counted",
+      "name": "Cooked Rice",
+      "note": "",
+      "unread": []
+    },
+    "food:f62201ea0a23fd4c9d45b2fc745c2427": {
+      "class": "counted",
+      "name": "Grilled Fish with Coconut Rice",
+      "note": "",
+      "unread": []
+    },
+    "food:f829e9ac3159424788b3c70dbb7d22ee": {
+      "class": "counted",
+      "name": "Grilled Penny Bun",
+      "note": "",
+      "unread": []
+    },
+    "food:f888bab031ed6e43ad81fc04633499a4": {
+      "class": "counted",
+      "name": "Prickle Pearl Tart",
+      "note": "",
+      "unread": []
+    },
+    "food:fac8068653bb6a4ca44cae72741a45cd": {
+      "class": "counted",
+      "name": "Latte",
+      "note": "",
+      "unread": []
+    },
+    "food:fc1f055bbbb4584e82497e057853124d": {
+      "class": "counted",
+      "name": "Purple Berries",
+      "note": "",
+      "unread": []
+    },
+    "food:fea683abc6190543a2fff11a4c209b89": {
+      "class": "counted",
+      "name": "Raw Wolf Meat",
+      "note": "",
+      "unread": []
+    },
+    "food:febfd403bdd923459be6f5e74b016309": {
+      "class": "counted",
+      "name": "Grilled Sunscale",
+      "note": "",
+      "unread": []
+    },
+    "gem:051fffd577b5024eb3cb3211f9172637": {
+      "class": "counted",
+      "name": "Gem of Soul Reaping",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:093419c6bb5a0e47b632349150dea333": {
+      "class": "counted",
+      "name": "Gem of Burning",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:155228ca76c66140bf14803cfc14671d": {
+      "class": "not counted",
+      "name": "Gem of Hopeful Embers",
+      "note": "not modeled by the planner",
+      "unread": []
+    },
+    "gem:20c14b2c98c8904191cb92d5ce438e55": {
+      "class": "counted",
+      "name": "Gem of Fracturing",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball",
+      "unread": []
+    },
+    "gem:3ddd13753ea6a84687e6ecf37b2e235c": {
+      "class": "depends on how you play",
+      "name": "Gem of Lycanthropy",
+      "note": "counts with fighting at night",
+      "unread": []
+    },
+    "gem:3f6f2b22ead97d45a445f3c56287363a": {
+      "class": "depends on how you play",
+      "name": "Gem of Retaliation",
+      "note": "counts with blocking hits",
+      "unread": []
+    },
+    "gem:4f4f9cc840befb428407e20c91697ee3": {
+      "class": "counted",
+      "name": "Gem of Armoring",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:51cc3f858a94ca469d93dc51f885ce1d": {
+      "class": "depends on how you play",
+      "name": "Gem of Currents",
+      "note": "counts with a soaked target",
+      "unread": []
+    },
+    "gem:5e16904a7422c5409947503d823af109": {
+      "class": "depends on how you play",
+      "name": "Gem of Swiftness",
+      "note": "counts with sprinting into the fight",
+      "unread": []
+    },
+    "gem:776b2b0463e8ff44aae4d8f85906848d": {
+      "class": "counted",
+      "name": "Gem of Focused Light",
+      "note": "moves numbers for: staff + Fireball",
+      "unread": []
+    },
+    "gem:7e8c3247a972354a934bf7e817b0a5e9": {
+      "class": "counted",
+      "name": "Gem of Bleeding",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball",
+      "unread": []
+    },
+    "gem:8e3362818ea10a409692b49df4e168cc": {
+      "class": "depends on how you play",
+      "name": "Gem of Aerobatics",
+      "note": "counts with attacking in the air",
+      "unread": []
+    },
+    "gem:90fbfc29a7ec3a459f86ff1dbfa1bfea": {
+      "class": "depends on how you play",
+      "name": "Gem of Skulls",
+      "note": "counts with sneak attacks",
+      "unread": []
+    },
+    "gem:9e729ad8dd93c14694f3e27b821f8ce0": {
+      "class": "counted",
+      "name": "Gem of Bloodlust",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:9f0e21e21f67cb449db8b685e88b2ae1": {
+      "class": "counted",
+      "name": "Gem of Greater Necromancy",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:a378a3d40584104e801b4ccc9d0b85e3": {
+      "class": "counted",
+      "name": "Gem of Puncturing",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:a72b1efd29a3f140ac2ab5e1830af797": {
+      "class": "counted",
+      "name": "Gem of Storm's Eye",
+      "note": "moves numbers for: staff + Fireball",
+      "unread": []
+    },
+    "gem:aad83ea064989c499f625bf33223637b": {
+      "class": "depends on how you play",
+      "name": "Gem of Meteoric Impact",
+      "note": "counts with glide landings",
+      "unread": []
+    },
+    "gem:b9afad789f8c5f44ad2fa433936dd6cf": {
+      "class": "counted",
+      "name": "Gem of Hyperspecialization",
+      "note": "moves numbers for: bow with its special",
+      "unread": []
+    },
+    "gem:bf3b8bcec4cf6f48aca8605c593282e1": {
+      "class": "counted",
+      "name": "Gem of Destiny",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:c561c075fe91cc45bc6e18f082972b52": {
+      "class": "depends on how you play",
+      "name": "Gem of Battle Mania",
+      "note": "counts with an elixir active",
+      "unread": []
+    },
+    "gem:caceaca2ad0f30448167df30e6d22c14": {
+      "class": "counted",
+      "name": "Gem of Cold Composure",
+      "note": "moves numbers for: staff + Fireball",
+      "unread": []
+    },
+    "gem:cd295d351d60fb4da5213cd1933b6faa": {
+      "class": "not counted",
+      "name": "Gem of Overpowering",
+      "note": "not modeled by the planner",
+      "unread": []
+    },
+    "gem:d154eff393d1e34d83f0a09ca5d428e2": {
+      "class": "depends on how you play",
+      "name": "Gem of Agility",
+      "note": "counts with evading",
+      "unread": []
+    },
+    "gem:db1a5d7f0c41b546b89acbb0d9bb60ef": {
+      "class": "counted",
+      "name": "Gem of Corruption",
+      "note": "moves numbers for: bow, wand, one-hand sword, greatsword, dagger, throwable, unarmed, bow with its special",
+      "unread": []
+    },
+    "gem:e144a9e49d9f0f479bc8ffa8aea9ede3": {
+      "class": "counted",
+      "name": "Gem of Lesser Necromancy",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "gem:e6fbeaf57613ab4bb990ceb0175d9a7b": {
+      "class": "depends on how you play",
+      "name": "Gem of Cleansing",
+      "note": "counts with a target resistant to Fog",
+      "unread": []
+    },
+    "gem:fa4f1f9fa6458445a2fba003c607111e": {
+      "class": "depends on how you play",
+      "name": "Gem of Toxic Betrayal",
+      "note": "counts with backstab hits",
+      "unread": []
+    },
+    "gem:fdb03caa795c974493dd8bb6a4edc2b8": {
+      "class": "counted",
+      "name": "Gem of Necromancy",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner, staff + Fireball, bow with its special",
+      "unread": []
+    },
+    "perk:004ab375d12bba499ab2d77050389b52": {
+      "class": "counted",
+      "name": "Ruthless",
+      "note": "",
+      "unread": []
+    },
+    "perk:024553d2e4cd164cbd8206cf08b9431a": {
+      "class": "counted",
+      "name": "Titan Edge",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:024d4d3e2165ab4f9a2e35604038aa92": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:02660bde76953b43b511fae54b9b07c2": {
+      "class": "counted",
+      "name": "Ranged Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:0280ade738a87c419d644080f2736a2d": {
+      "class": "counted",
+      "name": "Slasher",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:02b35b665c883a439ae09ce8abd3a193": {
+      "class": "counted",
+      "name": "Poison Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:038844310835784eab007468aa6ff9d6": {
+      "class": "counted",
+      "name": "Athlete",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:049222cd69550b4fac6aa43a54e7b19f": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "perk:0577131b8259be4bb77d439ce578155f": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:06a41968dd52444a9f88cdaf75321a73": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:06f6c1f06478e541afcba88aea4b0715": {
+      "class": "counted",
+      "name": "Bash",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:0828ca8187230e4ab9cc0a1b3944c66b": {
+      "class": "counted",
+      "name": "Radiant Aura",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:0afbf4ae22a7e245bbce0d038e58db71": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:0b8ece01f8aefd4ca17c00993b0bc4ee": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:0cddf66fa1bf3d4faca26e268c5dd735": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:0e5053f392dafa4580eff3d5a5e0a04a": {
+      "class": "counted",
+      "name": "Damage against Vukah",
+      "note": "",
+      "unread": []
+    },
+    "perk:0ea82aa0f26f2a438a4805048a4c14c9": {
+      "class": "depends on how you play",
+      "name": "Retaliation",
+      "note": "triggers when you are hit",
+      "unread": []
+    },
+    "perk:0f3fe056a2b52642b4ed58a2ede9edb9": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:0f5433b541aee242b20a5675a81d9168": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:11233dfc56804440802466b0c3138e9b": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:112478473737f84b8e378756d21bd577": {
+      "class": "counted",
+      "name": "Thrust",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:1284b52b5f495a4386ec1bff35b98d65": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:12a193d604d4c249b830d625af668646": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:12f3fe3bfdaa7e4395edcb904fb49c86": {
+      "class": "counted",
+      "name": "Damage against Wildlife",
+      "note": "",
+      "unread": []
+    },
+    "perk:131daf057bcfd34ba20bd75ec9a17217": {
+      "class": "counted",
+      "name": "All Magic Shroud Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:13201b35cb6e8f44b5a235a435aa9416": {
+      "class": "counted",
+      "name": "Damage against Fell",
+      "note": "",
+      "unread": []
+    },
+    "perk:17dc21ce20b9ec4cbbccc6b96799ae1e": {
+      "class": "counted",
+      "name": "Mana Currents",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:17fe05c81020cd47a884b69a8eb136f9": {
+      "class": "counted",
+      "name": "Charge Time",
+      "note": "",
+      "unread": []
+    },
+    "perk:186a213a9ec8ce43935ce79487b3376a": {
+      "class": "counted",
+      "name": "Survival Instinct",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:18a3728f5d59564593673742b2ecf260": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:1909da89fbd5df4eb82015cef8a48af2": {
+      "class": "counted",
+      "name": "Arachnoid",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:1b03201140265341958d739c675474f7": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:1b8ea46c3bc3be43bd9adf748c0bdb70": {
+      "class": "counted",
+      "name": "Puncture",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:1d8c897f74d1b5489bb41ba0e00d2f40": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:1f7598236f250c47aa1f44f67ce37d4f": {
+      "class": "counted",
+      "name": "Survival Instinct",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:1fedf8d74947844a8921bce598f3c63f": {
+      "class": "counted",
+      "name": "Cutting Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:2010a8297a85dd42a852329bec170c55": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:22315b332dd0a945b337ba5f1fa57931": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:223d2bacafdfbc41835a5587ab0791f7": {
+      "class": "counted",
+      "name": "Thrust",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:23e9cf77e005c043b76ea615ee9853ba": {
+      "class": "counted",
+      "name": "Magical Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:263cb57fc0703a46a4bbeb03947d92ee": {
+      "class": "counted",
+      "name": "Magical Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:269b987aa06c4b4e9e8e157f9dc264fd": {
+      "class": "counted",
+      "name": "Warrior's Path",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:2868d90815e1a24489978d34bc1a39f7": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:28aaf2248c4b424d987486b37c6242d4": {
+      "class": "counted",
+      "name": "Inner Fires",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:28cb3fe9da943c4d8578f4ed9197ebdb": {
+      "class": "counted",
+      "name": "Mana Cost",
+      "note": "",
+      "unread": []
+    },
+    "perk:29516eda6553b340b26a80725b9f918b": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:2a42afa9ab3f074a90de7d5d5e5bdbe8": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:2b4ea3603fd98541813c83620ce1e240": {
+      "class": "counted",
+      "name": "Shroud Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:2c829d3a62c5b94cb6fe0dc4673c9d9b": {
+      "class": "counted",
+      "name": "Saviour",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:2ca88a96fd77094ea21abd5ce618078a": {
+      "class": "counted",
+      "name": "Fire Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:2d565f3cd98db348a19995a07154b849": {
+      "class": "counted",
+      "name": "Ice Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:2e2dbdfde5b5c24f9d9eb99b2004fc19": {
+      "class": "counted",
+      "name": "Arcane Deflection",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:2f65c699ef59394798bf197498a3080c": {
+      "class": "counted",
+      "name": "Necromancer",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:2f91ff5eb276bc42bae5b89dca06fde4": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:3085e142588cdf4094337f94fa2b8728": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:328d899feb1bdf4593821c0a3446ba24": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:34645a1226efac4aaa14d93b676a68c7": {
+      "class": "counted",
+      "name": "Fatal Precision",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:35874973ef463e4b97202fe3b2c58f83": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:36ca8b8ef13dd94fa3da283444460cf2": {
+      "class": "counted",
+      "name": "Damage against Scavenger",
+      "note": "",
+      "unread": []
+    },
+    "perk:37b3b710621c7e409ea73c8c56078d9c": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "perk:37e32b23b7815b40b78a6ed7bc79052e": {
+      "class": "counted",
+      "name": "Eternal Spark",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:397fb3c0c0433b47a16b4c60a9848c8f": {
+      "class": "counted",
+      "name": "Athlete",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:3a1c30053327d74bbf0b1b2612f35376": {
+      "class": "counted",
+      "name": "Airborne",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:3aa51232825e2048b4d34132b9c901d1": {
+      "class": "counted",
+      "name": "Damage against Vukah",
+      "note": "",
+      "unread": []
+    },
+    "perk:3b83a7cc03a79346b3187563acd28173": {
+      "class": "counted",
+      "name": "Fatal Precision",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4017ff0ec7707d4d9de7af15b8314922": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:4034b32de23f9642a3dad99d6d613280": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:4126edae304f874cb1add634433e106b": {
+      "class": "counted",
+      "name": "Bash",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4302f0ae3785414f85e482d4830c3109": {
+      "class": "counted",
+      "name": "Unity",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:434de96f3475fd41a61025d3d72a4c1d": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:43df5633a9486848bed2bf52e53c0f4f": {
+      "class": "counted",
+      "name": "Blood Rage",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:44234f73f1faa5469245f9f9ca6d77af": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:44ba25e8e9eb3e4f82e7167120ae60a0": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:450f8ea68b48524097102ec054b0a9e9": {
+      "class": "counted",
+      "name": "Ranged Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:462db5211ae29d448377096d499084d3": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:470829a96b540743bcc346e6886bb406": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:4742ea7739461e4d984a0e2e9ccd570b": {
+      "class": "outside combat numbers",
+      "name": "Reaping",
+      "note": "raises stamina regeneration for a while (DPS and survival here do not use stamina)",
+      "unread": []
+    },
+    "perk:47f50d6232a5f644a3e40c8f72194b15": {
+      "class": "counted",
+      "name": "Damage against Scavenger",
+      "note": "",
+      "unread": []
+    },
+    "perk:480a4f1f987cf64d8c2681367b4fcbe6": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:4895da7a95b99448ae8fb357a2de6803": {
+      "class": "counted",
+      "name": "Shroud Mitigation",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:48eb537b6d83784695f9e9959a1dc7bf": {
+      "class": "counted",
+      "name": "Heavy Handed",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:49109f97e8c06149ab153dc068839373": {
+      "class": "counted",
+      "name": "Mass Destruction",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:497d63856f5abe4a9a692f3d213bca82": {
+      "class": "counted",
+      "name": "Counterstrike",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4a28487af11e9d40aa311aeb2354feaa": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:4ac015321d1d7d438272b6d36f9eb4fd": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:4acdf2a0602d4542a93bde6d0788248a": {
+      "class": "counted",
+      "name": "Shroud Resistance",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4b1265a3a56cf744b876a4d094aebdb6": {
+      "class": "outside combat numbers",
+      "name": "Renewal",
+      "note": "repairs your weapon's durability on hits",
+      "unread": []
+    },
+    "perk:4b5b0953c3f5f34893cdfb795a65c8c2": {
+      "class": "counted",
+      "name": "All Magic Fire Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:4bbec327b3d9d94d82d165480d99c640": {
+      "class": "counted",
+      "name": "Snake Eater",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4bd5ef3fcfe87c42bcb09a45cd45a347": {
+      "class": "counted",
+      "name": "All Magic Fire Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:4c1e00a0ac10324f9bbc55a91bf2c902": {
+      "class": "counted",
+      "name": "All Magic Ice Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:4c4d713e66b5a345abbc5f407e04df45": {
+      "class": "counted",
+      "name": "Bone to Ash",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4cafc8bbadd38d4f82bc5b378857d09d": {
+      "class": "counted",
+      "name": "Counter Battery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:4d58d0be7b69ed40915233098ccd6744": {
+      "class": "counted",
+      "name": "Blunt Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:4d87ea3ad6e53a4f8051b14bc2a36655": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:4de9ddba5bf73947a4b4e31d13fce9d6": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:4e67817473624c4eaf7c9af6e5c6f71f": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:4f230521b351aa468e396cab3a1a3662": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:4f806e195e8415439837ba3652f26f7d": {
+      "class": "counted",
+      "name": "Damage against Drak",
+      "note": "",
+      "unread": []
+    },
+    "perk:4f877ff65d75c446a3013f7037dfad48": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:4fd9b81928babd478c614863046ec2ea": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:50579fb173e833478afc3fa197edb75a": {
+      "class": "counted",
+      "name": "Ranger",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:50a47d276b64f946839b28ca38e75aa3": {
+      "class": "counted",
+      "name": "Damage against Scavenger",
+      "note": "",
+      "unread": []
+    },
+    "perk:50beb869da7b9545b13e50c6d53f308d": {
+      "class": "counted",
+      "name": "Silent Stride",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:533906ceccb8434a97e7e5e30ec7a8d8": {
+      "class": "counted",
+      "name": "All Pierce Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:545c75b12a45764d8449b600a51cd494": {
+      "class": "counted",
+      "name": "Unity",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:5498c18af49d9f44816bb869deff2870": {
+      "class": "counted",
+      "name": "Righteous Fire",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:551cd9ed8da6fc45adc9e5a8148218ca": {
+      "class": "counted",
+      "name": "Blunt Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:5594e2bcd858d44c93b92990d556edea": {
+      "class": "counted",
+      "name": "Ranged Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:563f9f99f071a84eb2e9ca627043d6c2": {
+      "class": "counted",
+      "name": "Earth Aura",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:56b8a4d93ad14549b389b34c5c5030f6": {
+      "class": "counted",
+      "name": "Mage Apprentice",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:56cc610f06b1b149bd93ad7089dfbdef": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:57816bf2de2694468fc708d38bae639d": {
+      "class": "counted",
+      "name": "Mana Currents",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:57938d5881797045ac524db16dbeab2b": {
+      "class": "counted",
+      "name": "All Cut Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:5796a3a5239b9049aebdc674c7ea7016": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:57cf65948656364ea5a74e5fdea1a5c5": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:57cfe079ce123c4093adf20d391a75ca": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:59655fa9111cff468814675532adb54e": {
+      "class": "counted",
+      "name": "Fire Resistance",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:5add8ebf6455284db86358d9e6da46b5": {
+      "class": "depends on how you play",
+      "name": "Dragon's Strength",
+      "note": "only while airborne (IsInState Grounded keeps its buff off on the ground)",
+      "unread": []
+    },
+    "perk:5ae7fac176e0dc4abcb75ad4dfd8f244": {
+      "class": "counted",
+      "name": "Charge Time",
+      "note": "",
+      "unread": []
+    },
+    "perk:5c0a8d420d7a9049a786941702d092a6": {
+      "class": "counted",
+      "name": "All Magic Shock Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:5cbb6bfd11e36843a5beec3266f036cc": {
+      "class": "counted",
+      "name": "Slasher",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:5e5a8adbb513cb4386469dddb69d5ed6": {
+      "class": "counted",
+      "name": "Damage against Hollow",
+      "note": "",
+      "unread": []
+    },
+    "perk:5f236e9142a6904099cbe336b1e0d3a5": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:5ff996eb8ee76d44b62de806aef06f29": {
+      "class": "counted",
+      "name": "Fisherman's Resolve",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:6024c49f6b81a1489c0cc58d20781320": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:60a43bc4d5fd8c4cbd2c31139b6ec94f": {
+      "class": "counted",
+      "name": "Survival Instinct",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:6100114ff796264dbd9eb74eac74cfc6": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:611ab12cc5516c4194ce600423ead504": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:63cce53d7197524c94d1ba94355a431c": {
+      "class": "counted",
+      "name": "Bloodletting",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:63e4da27c865e044a3b9663dca3368c9": {
+      "class": "outside combat numbers",
+      "name": "Reaping",
+      "note": "raises stamina regeneration for a while (DPS and survival here do not use stamina)",
+      "unread": []
+    },
+    "perk:65b0f65b5c8d2947abd959a176f83a50": {
+      "class": "counted",
+      "name": "Purification",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:65b4eaea2fd81c478b13aef30de0b640": {
+      "class": "counted",
+      "name": "Life Essences",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:6650e779e1b1a549bcf6caa44ea03dcb": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:6948ae2e1e432a408ff03f48c3da3a1e": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:698bfae596f9a442a53f24dd75998bab": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:6ac615f6796afb49a692f301f0ada99e": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:6cdfe086e48a144d9640e7f2878c4bf9": {
+      "class": "counted",
+      "name": "Magical Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:6d6a93e648eedd4591d5e6cbf4146846": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:6de82950b27e1b4585f7a13bda39bab4": {
+      "class": "counted",
+      "name": "Ice Resistance",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:6e06b9296541e9468781e99467be8e11": {
+      "class": "counted",
+      "name": "Damage against Hollow",
+      "note": "",
+      "unread": []
+    },
+    "perk:6e43f9a6119b8747835eed6f9e2cf0cb": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "perk:6f8bbeaa9b610741ab5ec43ac189ea8b": {
+      "class": "counted",
+      "name": "Healer",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:715ca56449af764a9ff39443cbc9a5e3": {
+      "class": "counted",
+      "name": "Spellslinger",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:730f679fce678248ae86372e362cf4f0": {
+      "class": "counted",
+      "name": "Damage against Scavenger",
+      "note": "",
+      "unread": []
+    },
+    "perk:7342a689bfce4848a1046dac12df53fe": {
+      "class": "counted",
+      "name": "Ruthless",
+      "note": "",
+      "unread": []
+    },
+    "perk:734f720ecb859a418ed02927a557b9f2": {
+      "class": "counted",
+      "name": "Advanced Necromancy",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:736b88d01341bc4e9598db2daef40e26": {
+      "class": "counted",
+      "name": "Ice Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:742a940436ec7c4eb7c98341d37c7a51": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:74a97110d6976c47ada12255bead0fc6": {
+      "class": "counted",
+      "name": "Wizard",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:752f3d0372d4e34798f7800c09a4039b": {
+      "class": "counted",
+      "name": "Sniper",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:760ff0c99a8bbc42bcb57b9e80b1ca55": {
+      "class": "counted",
+      "name": "Damage against Scavenger",
+      "note": "",
+      "unread": []
+    },
+    "perk:7736cc6acdaa4e49b24ecc7c793bf2c4": {
+      "class": "counted",
+      "name": "Blessed Arrows",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:78a080b410ba6a4fb9a1fbf61e7d1110": {
+      "class": "counted",
+      "name": "Ranged Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:7a2780842f5b4140a21e5e075c1f7281": {
+      "class": "counted",
+      "name": "Opportunistic",
+      "note": "",
+      "unread": []
+    },
+    "perk:7a77431f0e15bd45be99398f3bf77d8e": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:7ac0180854bae1469b40b9d5bd03edf2": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:7bb91775933dff469803353625f5efc2": {
+      "class": "counted",
+      "name": "All Magic Shock Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:7c9c803b88f8f04cbcac16d51c90f347": {
+      "class": "counted",
+      "name": "Prospector",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:7d466a3c62d2eb4fbc95984a0080e873": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:7d930f87da34e2488cf94209fe99224e": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:7e84651ef4bbac44958c2a68057e0702": {
+      "class": "counted",
+      "name": "Mana Cost",
+      "note": "",
+      "unread": []
+    },
+    "perk:7ed58f2669b7a44ab8cab2dfbb381436": {
+      "class": "counted",
+      "name": "Barbarian's Path",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:7edf7795a2bb754f82df89805615c828": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:7f9c500c1725c14fb28e93499ce590e9": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:7fc78fc59b52794a9544d1d998b85fa8": {
+      "class": "counted",
+      "name": "Cutting Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:80c27f945d05a44d972f2c48de771d81": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:81a5fba1fbde9b45b535eef12c2bdd6b": {
+      "class": "counted",
+      "name": "Mana Currents",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:827f708bd3c1c849b0e71c6836a82c3f": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:8305c97950fd6242a5eea26fa4ff0e8c": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:84877ab17c064545bf51424a1116e513": {
+      "class": "counted",
+      "name": "All Blunt Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:84c4f837a849824fb84fc018ea2f21bc": {
+      "class": "counted",
+      "name": "Skill Shot",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8529c14614dc53439630bb02d2c86d4e": {
+      "class": "counted",
+      "name": "Cull the Herd",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:85b3ccf88ade044dab116507016eae4d": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:861c90bcf1db594193f8400393873ea4": {
+      "class": "counted",
+      "name": "Power Parry",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:864484f71182c44da34e06de4d394f71": {
+      "class": "counted",
+      "name": "Titan Edge",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:866e347ad1aae948a5135522fb5d155c": {
+      "class": "counted",
+      "name": "Damage against Fell",
+      "note": "",
+      "unread": []
+    },
+    "perk:871d155efaabaf4e8e082b37c181dab8": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:88ed551b4d2a0f47b0990df9dd095381": {
+      "class": "counted",
+      "name": "All Magic Ice Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:89eac87b281f5b4297e88f0f8813286c": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:8a2ac62f7993b54f8e3df83f0e876334": {
+      "class": "counted",
+      "name": "Sleight of Hand",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8b191aaacd4a644e85a7e0ecf97eb950": {
+      "class": "counted",
+      "name": "Nemesis",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8bc179f5895a6a44b2d9ec4fd0e6879f": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:8c5dd2150d2e1c4aaf21eaf95f78202e": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:8cc394b9da98be48b0497ff44c41608e": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:8cc47c8eb3760343b0408d6109f428cc": {
+      "class": "counted",
+      "name": "Ranger",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8db202b20c74bc4885addfbbb0f33ed2": {
+      "class": "counted",
+      "name": "Shroud Mitigation",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8e3791f5ca0c89438ec8927b0ed1e87c": {
+      "class": "counted",
+      "name": "Life Essences",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8f3f66c6a3d11341b8bb2f433218bd88": {
+      "class": "counted",
+      "name": "Shared Misery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:8fe61e92d01a8d4fa1178927d8a400d7": {
+      "class": "counted",
+      "name": "Damage against Hollow",
+      "note": "",
+      "unread": []
+    },
+    "perk:908e9f3b6a25aa4a80f02179b79ba5bf": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:90c071c3a3fb5d428de9a34f4a2a5670": {
+      "class": "counted",
+      "name": "Totem Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9273529414479d4e866e37ddd8da6e00": {
+      "class": "counted",
+      "name": "Lumberjack",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:928f9eb711e79f46b0c495dd112f1d57": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:93a6ab643c764e458cf100690aadb83a": {
+      "class": "counted",
+      "name": "Fatal Precision",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:94b1f0015fd49c46a3d33a23d69fe59b": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:94d36ddc1e83eb468791180af296460d": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:94e7991b92aca842866fedec604dfe5d": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:953677794ecefe45b9918e91a9da1715": {
+      "class": "counted",
+      "name": "Battle Heal",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9596f3887c6bd545a4f0cf1319a782cd": {
+      "class": "counted",
+      "name": "Vile Concoction",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9819031cb775da49bd5c0deb2fdd31e7": {
+      "class": "counted",
+      "name": "Puncture",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9858af490286904daf9731b26b2dba65": {
+      "class": "counted",
+      "name": "Bone to Ash",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:98fc0b902f4a534584af622605c9736e": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:9a0a55d1b9875b46b59b6412e59559a0": {
+      "class": "counted",
+      "name": "Damage against Wildlife",
+      "note": "",
+      "unread": []
+    },
+    "perk:9b1fbc0d17d34047ad4ac1b6172c4bd3": {
+      "class": "counted",
+      "name": "Eagle's Bane",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9c25be033253df4a9f61565dd2475658": {
+      "class": "counted",
+      "name": "Damage against Vukah",
+      "note": "",
+      "unread": []
+    },
+    "perk:9c7b92885f9d644abb59f28784060492": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:9c9a0ddb03338e41b617ae09fa543115": {
+      "class": "counted",
+      "name": "Blood Magic",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9cc11bdbb6b6e649b29b4525210b28b5": {
+      "class": "counted",
+      "name": "Spellslinger",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9d0d06c56d91e344a2db604e3da45851": {
+      "class": "counted",
+      "name": "Healing Revive",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9e7c47db00d6054ba0bc7aa0855a9ed2": {
+      "class": "counted",
+      "name": "Charge Time",
+      "note": "",
+      "unread": []
+    },
+    "perk:9eaee96198b8354cbb4660a31a27fb3e": {
+      "class": "counted",
+      "name": "Damage against Ancients",
+      "note": "",
+      "unread": []
+    },
+    "perk:9ec682067acc0242a3bd57ac8ed1d78f": {
+      "class": "counted",
+      "name": "Shroud Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:9eed500ff7a4434384e5b1478cf4d9c5": {
+      "class": "counted",
+      "name": "Well Rested",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:9f076f07c3c6474b97ccf5ba342d2d31": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:a0101e998a436046b70d4a5169dabee4": {
+      "class": "counted",
+      "name": "Damage against Fell",
+      "note": "",
+      "unread": []
+    },
+    "perk:a17214eac117d4449315c435f07a4796": {
+      "class": "depends on how you play",
+      "name": "Headseeker",
+      "note": "Stamina gain per skill shot (only when that happens)",
+      "unread": []
+    },
+    "perk:a1fffdc6509e1e4187c08ec808a1111b": {
+      "class": "outside combat numbers",
+      "name": "Reaping",
+      "note": "raises stamina regeneration for a while (DPS and survival here do not use stamina)",
+      "unread": []
+    },
+    "perk:a237f42f595f87448174d7a7091f5aa3": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:a2fa7ca52b31c24c9d0d933fee5dfeff": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:a309f0b4489f9f41b39c012beeab40cc": {
+      "class": "counted",
+      "name": "Iceman",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:a3367b739e331a45a0b76105524a6a15": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:a33b80bb2917424baa196ca1d76489e7": {
+      "class": "counted",
+      "name": "Quick Charge",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:a3c93bc82cceeb43ac3dae4dee55db11": {
+      "class": "counted",
+      "name": "Damage against Hollow",
+      "note": "",
+      "unread": []
+    },
+    "perk:a413b6f429501f43824bfa4718064673": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:a4760c62ca19ce48905286412d805dfd": {
+      "class": "counted",
+      "name": "Magical Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:a6321df67739bf47a01e8804b98810b4": {
+      "class": "counted",
+      "name": "Swiftshot Sustenance",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:a837e8ac59a1754fb88fd4a6a13b501c": {
+      "class": "counted",
+      "name": "Wand Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:a87c9a3a3ceb344cb352736177a82e37": {
+      "class": "counted",
+      "name": "Magical Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:a8c007dd5a0c414c826ce0f4c726865e": {
+      "class": "counted",
+      "name": "Heavy Plates",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:a8c7cd47c5a9bc42845ae4536ad81bbf": {
+      "class": "counted",
+      "name": "Vigorous Deflection",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:a95a546b59740843803d730418ebeece": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:a95fa0e63feee34ea99321089a3ad22f": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "perk:a9d7362b0bc2014787eb28e74d31641d": {
+      "class": "counted",
+      "name": "Shiny Plates",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:aa44ca34b4adbd49906c4a11f6a818e0": {
+      "class": "counted",
+      "name": "Marksman",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:ac676954c6331f4aaa91c56ce241e49b": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:acebfc9bccaa824b803c8a3c68155dcb": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:ad8ddf123c912a47abd4581e267af027": {
+      "class": "counted",
+      "name": "Opportunity",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:ada2989ca6733343833eb224083a2144": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:ae91ae39a3683f4a9eb488784fe78382": {
+      "class": "counted",
+      "name": "Vitality Surge",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:af27cb2bab6b584fa5053f22ac66f5b8": {
+      "class": "counted",
+      "name": "Rebound",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:af4d04dd4c78bd46a17bfca84f903e8b": {
+      "class": "counted",
+      "name": "Mason",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:afbed9277452f54d9250f874105bd155": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:b0813ae88fb96b4180d0f5b08534d159": {
+      "class": "counted",
+      "name": "Primal Force",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b159b112a600c74389be8fc782da9b2f": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:b16005ad9607dd4b846402f61c2a57bf": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:b377349c75fa104ebb7711399a30c9a0": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:b3819a6ad14be64194f8b70dea840105": {
+      "class": "counted",
+      "name": "Piercing Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:b3f1dadc597b0641bb4ad885cfda9e1a": {
+      "class": "counted",
+      "name": "Barrage",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b4208b960fb86140b1f045ee56055da4": {
+      "class": "counted",
+      "name": "Heavy Plates",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b4801f063bac904fa78388ac9935e717": {
+      "class": "counted",
+      "name": "Runner",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b6de20036c58bb4c9e9d2e53ba3bd542": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:b71eccab68bffb41ad652a6334aed89d": {
+      "class": "counted",
+      "name": "Purification",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b7d10b680841de45a81e3c5cb962f828": {
+      "class": "outside combat numbers",
+      "name": "Reaping",
+      "note": "raises stamina regeneration for a while (DPS and survival here do not use stamina)",
+      "unread": []
+    },
+    "perk:b802f018000e774f960ed519a6a8a08d": {
+      "class": "counted",
+      "name": "Arsonist",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b82b5584d840a847abd6f82c07e155a4": {
+      "class": "counted",
+      "name": "Dagger Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:b890052fa442d74fab0d47bd8808e103": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:b9ac0be9562cc24da5803d416fb9cca6": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:bb58da0a7b58ee4d8a98d2d2a86b1f41": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:bbda04bc1dd1f94c8f7c3378b2f8f524": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:bce1380beb21e04aaf64c50f2508db9f": {
+      "class": "counted",
+      "name": "Veteran",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:be731d2d0575e3489a01a6432fc9149c": {
+      "class": "counted",
+      "name": "Soul Leech",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:becefa6a88bfcb4388834feac594eab2": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:bf8e1f629624e541b0195d27382538db": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:bff9f14fab73984e9d81b51c813e37dc": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:c064b7e3c952e047a3705612ec75c1d5": {
+      "class": "counted",
+      "name": "Charge Time",
+      "note": "",
+      "unread": []
+    },
+    "perk:c135b335a9fa21469965534a1e28b0a1": {
+      "class": "counted",
+      "name": "Damage against Fell",
+      "note": "",
+      "unread": []
+    },
+    "perk:c1506e68cad2ee4aaa1fa26c77cd12cd": {
+      "class": "counted",
+      "name": "Damage against Fell",
+      "note": "",
+      "unread": []
+    },
+    "perk:c182efd96b428844a6dceea09ff1d7b8": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:c2565b680b36484b9fa81ee18ef63cff": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:c311d2b71dabb14d8bbb8735c360083a": {
+      "class": "counted",
+      "name": "Backstab Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:c3dd44d20ec479479fba9a15fa0fc5c9": {
+      "class": "counted",
+      "name": "Shock Resistance",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:c482f1e1cfa57148a830a590ed7c9f71": {
+      "class": "counted",
+      "name": "Damage against Wildlife",
+      "note": "",
+      "unread": []
+    },
+    "perk:c4b5f241f18fdd49a79db799d58bfc66": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:c548dc233fd6bb45a31fe319af10cf93": {
+      "class": "counted",
+      "name": "Runner",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:c608dd015dfd22418b5a06bd97c64842": {
+      "class": "counted",
+      "name": "Brute",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:c6c86f88e070ba449c7be746036df772": {
+      "class": "counted",
+      "name": "Damage against Scavenger",
+      "note": "",
+      "unread": []
+    },
+    "perk:c71af5adfc81a14d946be32d25c0714f": {
+      "class": "counted",
+      "name": "Fire Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:c72b0678caccd34e8f4b3988c982bdf7": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:c7b735892deaa249bbaa84456699b352": {
+      "class": "counted",
+      "name": "Backstab Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:c9ddd6375631e642a76688b40bd6432b": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:ca1b4ddb5aa4604eb02d153d5656e9d7": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:ca1f4b68ccfa334b92fad05acd6ba976": {
+      "class": "counted",
+      "name": "Frost",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:ca4308c21192b844a3fd44652ad8f8d4": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:caafa781eab9a54a90c0aac35eb2d82c": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:cb9fcc082b8ffe42b4181cac1b6b3f90": {
+      "class": "outside combat numbers",
+      "name": "Reaping",
+      "note": "raises stamina regeneration for a while (DPS and survival here do not use stamina)",
+      "unread": []
+    },
+    "perk:cc139be685d4034997dc4f615d0057a2": {
+      "class": "counted",
+      "name": "Water Aura",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:cc9303823e712a448e91efd311b1d770": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:ccd655f564835b48b06b6e8a8ef2495f": {
+      "class": "counted",
+      "name": "Critical Strike Chance",
+      "note": "",
+      "unread": []
+    },
+    "perk:ccf2e6e2c81afa419c1564b87a7c9db4": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:cdaa831602b58f4aac2fe2566607402b": {
+      "class": "counted",
+      "name": "Shock Armor",
+      "note": "armor share",
+      "unread": []
+    },
+    "perk:cdd7283f89d7f64d9fc4aa9269f8c40d": {
+      "class": "outside combat numbers",
+      "name": "Reaping",
+      "note": "raises stamina regeneration for a while (DPS and survival here do not use stamina)",
+      "unread": []
+    },
+    "perk:ce4329d559abd14fa00ac6e417aa07b7": {
+      "class": "counted",
+      "name": "All Cut Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:ce62da0f485e4d4b833fe614c7cc5f21": {
+      "class": "counted",
+      "name": "Veiled Vigor",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:cea4fb952ac7604f9b5e021ac24216fe": {
+      "class": "counted",
+      "name": "Damage against Fell",
+      "note": "",
+      "unread": []
+    },
+    "perk:ced9583239509d4b9431fe130dffd024": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:cf3b5e6e7bfbc24abe750e2dc521808e": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:cf9e548fbbd03a4b917fc77838897733": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:d229a0828b4044469b5fd09f3b1da365": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:d275babf1cf86a4f9caeca121962641d": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:d2bccb68e57d684e97e425b267b8ee65": {
+      "class": "counted",
+      "name": "Purification",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:d3ae1ec401ff5b4a83f33279a5842f2d": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:d430a20dc5c4784dbe5497681456b381": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:d43b4bfc2f81034bbf5bd7b50b1c5baa": {
+      "class": "counted",
+      "name": "Health Leech",
+      "note": "Health gain per hit",
+      "unread": []
+    },
+    "perk:d5328f2a119c4248b0dbad66452d5a80": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:d796e607d785294da57b266ff40b47e8": {
+      "class": "counted",
+      "name": "Heavy",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:d7a43424da145c40a3e6791851936acc": {
+      "class": "counted",
+      "name": "Mana Cost",
+      "note": "",
+      "unread": []
+    },
+    "perk:d7a986990196d040a2538323cee81311": {
+      "class": "counted",
+      "name": "Dagger Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:d7ae454636e16b4288f36821473a61b4": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:d81193c5faf89648b7c188ab11388aaa": {
+      "class": "counted",
+      "name": "Absorb",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:d9d61b803cccee48ba2a5e8efe954fc9": {
+      "class": "counted",
+      "name": "Wand Mastery",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:d9dd13611b7d444ea1fd67b62080b110": {
+      "class": "counted",
+      "name": "Bash",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:da3a6cb64d2c234da2e3c70c17eddec5": {
+      "class": "counted",
+      "name": "Stamina",
+      "note": "",
+      "unread": []
+    },
+    "perk:da975b2e66219e4094a5840b8bdbbb16": {
+      "class": "counted",
+      "name": "Vigorous Deflection",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:dc76e21c19b85e499e93fa0713fc37a7": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:dd0aa65902b1a449959e417c696f87c7": {
+      "class": "counted",
+      "name": "Shiny Plates",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:dd67cf636e253642988d27eab33c4dae": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "perk:dee720220e53f44bb7e0e22f9fb32596": {
+      "class": "counted",
+      "name": "Damage against Vukah",
+      "note": "",
+      "unread": []
+    },
+    "perk:defbdfe1a7dd6e49bb6ca9a1e71dfb2a": {
+      "class": "counted",
+      "name": "Marksman",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:e0791fbb22440340b718ad5a8e312497": {
+      "class": "counted",
+      "name": "All Magic Shroud Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:e085ecca7c9d5d46b74a6ce523de2f8a": {
+      "class": "counted",
+      "name": "Heavy Handed",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:e09096dfa2922447b09530548d0fd89d": {
+      "class": "counted",
+      "name": "All Pierce Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:e159445ec21ff749993873ca0da8582e": {
+      "class": "counted",
+      "name": "Health",
+      "note": "",
+      "unread": []
+    },
+    "perk:e19c3df3dc37e946a7d1aac82ca91331": {
+      "class": "counted",
+      "name": "Mana Cost",
+      "note": "",
+      "unread": []
+    },
+    "perk:e1f6b6b666b99a4bbdda1c09fb288dd8": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:e1fe9f615c64184eb9a6b24d4059afab": {
+      "class": "counted",
+      "name": "Merciless Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:e2113e26fa879b4ea9b03d63de070fb5": {
+      "class": "counted",
+      "name": "Piercing Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:e361d55b6ac9d44ea5b3eb21e8b0d824": {
+      "class": "counted",
+      "name": "Finesse",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:e513c02cf48ec54caba97b0bfdbd4d8f": {
+      "class": "counted",
+      "name": "Damage against Hollow",
+      "note": "",
+      "unread": []
+    },
+    "perk:e54d035026f9314ba991b18f52bc97ea": {
+      "class": "counted",
+      "name": "Healer",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:e5de703473e07a41af4ccde70a8661cb": {
+      "class": "counted",
+      "name": "Power Parry",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:e5f1a3b2d3f93149a61f63245f2ad6a0": {
+      "class": "counted",
+      "name": "Shroud Mitigation",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:e64b3bc6dee33d4c9d735993b138e2fd": {
+      "class": "counted",
+      "name": "Mana Leech",
+      "note": "Mana gain per hit",
+      "unread": []
+    },
+    "perk:ea1fa83e4b09ff42b51c39c48304a1c2": {
+      "class": "counted",
+      "name": "Counterstrike",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:ea2458a81d7d37418a93fb0f4b18f493": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:eb1497257a5a374e9cb11de31f622a6b": {
+      "class": "counted",
+      "name": "Health Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:eb1712c312c83d4a8e7aa2d65d6eccd4": {
+      "class": "counted",
+      "name": "Mana Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:ec2d47b8acbe1f439454e6802d7baab6": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "perk:ecdc8414947b4b40919771b4cc2ee078": {
+      "class": "counted",
+      "name": "Stamina Leech",
+      "note": "Stamina gain per hit",
+      "unread": []
+    },
+    "perk:eddfc2882e486347b9e6a4d1520e78a3": {
+      "class": "counted",
+      "name": "Opportunistic",
+      "note": "",
+      "unread": []
+    },
+    "perk:ee27723c41dcf34a9bbd2c71ca4c2e7b": {
+      "class": "counted",
+      "name": "Critical Strike Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:ef8f41ead1885d4992093364103f739c": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:f0f459d647d39843bacb9fafed2a2e7e": {
+      "class": "counted",
+      "name": "Sneak Attack Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:f19bd5660b0e97409bea2badb9bd21e4": {
+      "class": "counted",
+      "name": "Damage against Wildlife",
+      "note": "",
+      "unread": []
+    },
+    "perk:f2c2f3da24e7c34a84293c4dab6127c0": {
+      "class": "counted",
+      "name": "All Blunt Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:f38ad4de1181f540b11f2dfa5d9e8c47": {
+      "class": "counted",
+      "name": "Heavy Handed",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:f3f319176746c449a49944e2b1298131": {
+      "class": "counted",
+      "name": "Thunder",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:f3fc86bb19cb194bb8f25e3e1ebaa03c": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:f45e8117ad50c046944a6c77ff0651c3": {
+      "class": "counted",
+      "name": "Necromancer",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:f4710e3ec4b56a4982e8fd4a57931228": {
+      "class": "counted",
+      "name": "Power Parry",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:f50cdd60c82af94c9badd9860fa0fbbe": {
+      "class": "counted",
+      "name": "Terror",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:f758fc788c7be247b5d600622d1bf14d": {
+      "class": "counted",
+      "name": "Cutthroat",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:f832349c64e17e4ea4dff38479627934": {
+      "class": "counted",
+      "name": "Damage against Vukah",
+      "note": "",
+      "unread": []
+    },
+    "perk:f88ed88bb7ecbf4db6065b9275d470c4": {
+      "class": "counted",
+      "name": "Stamina Regeneration",
+      "note": "",
+      "unread": []
+    },
+    "perk:f8f7a6f611d07549a5a98dba198e06a2": {
+      "class": "counted",
+      "name": "Perk_Damage_Cut",
+      "note": "damage-type share",
+      "unread": []
+    },
+    "perk:faa8f0e0ffd89148a91d728d2e8bfc6a": {
+      "class": "counted",
+      "name": "Backstab Damage",
+      "note": "",
+      "unread": []
+    },
+    "perk:facdedfe1b8d7c449890b0d7e67ad1cf": {
+      "class": "counted",
+      "name": "Steadfast",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:fb8a3b8396d0de449fe004e0e34a0a7e": {
+      "class": "counted",
+      "name": "Damage against Vukah",
+      "note": "",
+      "unread": []
+    },
+    "perk:fc7f58302cbfff4fa814f6992eb51465": {
+      "class": "counted",
+      "name": "Damage against Wildlife",
+      "note": "",
+      "unread": []
+    },
+    "perk:fc87a1221523b24993e838b7063c1500": {
+      "class": "counted",
+      "name": "Dark Arts",
+      "note": "adds a skill rank (see that skill's entry)",
+      "unread": []
+    },
+    "perk:fcbdc3ee3c3d8a43a5a80c8af702a720": {
+      "class": "counted",
+      "name": "Damage against Hollow",
+      "note": "",
+      "unread": []
+    },
+    "perk:fd8fe302030f014ebfa08dd108ba781f": {
+      "class": "counted",
+      "name": "Shock Resistance",
+      "note": "",
+      "unread": []
+    },
+    "perk:fe5d1ae2f070464bbac43aa2afd01215": {
+      "class": "counted",
+      "name": "Mana",
+      "note": "",
+      "unread": []
+    },
+    "perk:fe9616bcaff4b34b8a87767a7f4810c3": {
+      "class": "counted",
+      "name": "Damage against Wildlife",
+      "note": "",
+      "unread": []
+    },
+    "perk:ffc6c7f2013a9a48a9a53a85a396dd9a": {
+      "class": "outside combat numbers",
+      "name": "Venomous Blades",
+      "note": "applies Poisoned, whose damage only hits players (its program checks HasFaction Player), so it adds no damage to enemies",
+      "unread": []
+    },
+    "skill:Absorb": {
+      "class": "depends on how you play",
+      "name": "Absorb",
+      "note": "triggers when you are hit or killed",
+      "unread": []
+    },
+    "skill:Advanced Necromancy": {
+      "class": "counted",
+      "name": "Advanced Necromancy",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Aerial Wand Attack": {
+      "class": "unlocks an action",
+      "name": "Aerial Wand Attack",
+      "note": "unlocks an action: When equipped with a Wand, you can perform a special attack by holding [key] during a jump.  It fires a magical projectile that deals 50% additional weapon damage in a small blast radius.  Cost: 25 Mana",
+      "unread": []
+    },
+    "skill:Airborne": {
+      "class": "outside combat numbers",
+      "name": "Airborne",
+      "note": "",
+      "unread": []
+    },
+    "skill:Airborne Architect": {
+      "class": "unlocks an action",
+      "name": "Airborne Architect",
+      "note": "unlocks an action: Turn into a spark inside the base to move freely through the air in first person while building. To toggle this mode, hold [key].",
+      "unread": []
+    },
+    "skill:Arachnoid": {
+      "class": "outside combat numbers",
+      "name": "Arachnoid",
+      "note": "",
+      "unread": []
+    },
+    "skill:Arcane Concentration": {
+      "class": "counted",
+      "name": "Arcane Concentration",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Arcane Deflection": {
+      "class": "outside combat numbers",
+      "name": "Arcane Deflection",
+      "note": "",
+      "unread": []
+    },
+    "skill:Arcane Proliferation": {
+      "class": "counted",
+      "name": "Arcane Proliferation",
+      "note": "moves numbers for: wand",
+      "unread": []
+    },
+    "skill:Arsonist": {
+      "class": "counted",
+      "name": "Arsonist",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Athlete": {
+      "class": "counted",
+      "name": "Athlete",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Backstab Mastery": {
+      "class": "counted",
+      "name": "Backstab Mastery",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Barbarian": {
+      "class": "counted",
+      "name": "Barbarian",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Barbarian's Path": {
+      "class": "counted",
+      "name": "Barbarian's Path",
+      "note": "moves numbers for: two-hand hammer",
+      "unread": []
+    },
+    "skill:Barrage": {
+      "class": "outside combat numbers",
+      "name": "Barrage",
+      "note": "",
+      "unread": []
+    },
+    "skill:Bash": {
+      "class": "depends on how you play",
+      "name": "Bash",
+      "note": "triggers on parrying",
+      "unread": []
+    },
+    "skill:Battle Heal": {
+      "class": "counted",
+      "name": "Battle Heal",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Beast Master": {
+      "class": "outside combat numbers",
+      "name": "Beast Master",
+      "note": "changes how animals or Vukah behave toward you",
+      "unread": []
+    },
+    "skill:Bee Sting": {
+      "class": "unlocks an action",
+      "name": "Bee Sting",
+      "note": "unlocks an action: Firing or aiming your Bow while airborne slows down your fall briefly. Every shot lifts you slightly, granting more airtime.  Cost: 10 Stamina per second",
+      "unread": []
+    },
+    "skill:Begone!": {
+      "class": "counted",
+      "name": "Begone!",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Blast and Cast": {
+      "class": "depends on how you play",
+      "name": "Blast and Cast",
+      "note": "needs switching between two weapon types",
+      "unread": []
+    },
+    "skill:Blessed Arrows": {
+      "class": "counted",
+      "name": "Blessed Arrows",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Blink": {
+      "class": "unlocks an action",
+      "name": "Blink",
+      "note": "unlocks an action: Replaces the Dodge Roll ability with a short-range teleport.   Blink also replaces the sideways Dodge Roll of the Strategic Maneuver skill.  Cost: 20 Stamina",
+      "unread": []
+    },
+    "skill:Blink Attack": {
+      "class": "not counted",
+      "name": "Blink Attack",
+      "note": "special behaviour not calculated: Blinking into an enemy triggers an explosion which deals Fire damage in a small radius.  Damage and Mana cost scale with the Intelligence attribute.",
+      "unread": []
+    },
+    "skill:Blood Magic": {
+      "class": "outside combat numbers",
+      "name": "Blood Magic",
+      "note": "",
+      "unread": []
+    },
+    "skill:Blood Rage": {
+      "class": "counted",
+      "name": "Blood Rage",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Blood Warrior": {
+      "class": "depends on how you play",
+      "name": "Blood Warrior",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Bloodletting": {
+      "class": "counted",
+      "name": "Bloodletting",
+      "note": "moves numbers for: staff, summoner",
+      "unread": []
+    },
+    "skill:Bone to Ash": {
+      "class": "counted",
+      "name": "Bone to Ash",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Bounty Bonanza": {
+      "class": "depends on how you play",
+      "name": "Bounty Bonanza",
+      "note": "triggers on skill-shot, sneak or merciless kills",
+      "unread": []
+    },
+    "skill:Bow Specialization": {
+      "class": "counted",
+      "name": "Bow Specialization",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Breach": {
+      "class": "depends on how you play",
+      "name": "Breach",
+      "note": "triggers on parrying",
+      "unread": []
+    },
+    "skill:Brute": {
+      "class": "counted",
+      "name": "Brute",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Calm Spirit": {
+      "class": "outside combat numbers",
+      "name": "Calm Spirit",
+      "note": "changes how animals or Vukah behave toward you",
+      "unread": []
+    },
+    "skill:Chain Hit": {
+      "class": "counted",
+      "name": "Chain Hit",
+      "note": "moves numbers for: staff, wand, summoner",
+      "unread": []
+    },
+    "skill:Constitution": {
+      "class": "counted",
+      "name": "Constitution",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Counter Battery": {
+      "class": "counted",
+      "name": "Counter Battery",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Counterstrike": {
+      "class": "depends on how you play",
+      "name": "Counterstrike",
+      "note": "triggers when you are hit or killed",
+      "unread": []
+    },
+    "skill:Crash Down Attack": {
+      "class": "unlocks an action",
+      "name": "Crash Down Attack",
+      "note": "unlocks an action: When equipped with a Melee weapon, you can perform a special attack by holding [key] during a jump.  Crash Down deals 50% more weapon damage in a small blast radius and costs Stamina depending on weapon type used.   Cost: 35 - 60 Stamina  Block Breaker  This special attack fills a blocking enemy's Stun Bar twice as much when hit..",
+      "unread": []
+    },
+    "skill:Crash Down: Force": {
+      "class": "not counted",
+      "name": "Crash Down: Force",
+      "note": "gates attack steps that are never in the best combo the planner picks: When attacking from a double jump, Crash Down deals 20% more weapon damage.",
+      "unread": []
+    },
+    "skill:Cull the Herd": {
+      "class": "counted",
+      "name": "Cull the Herd",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Cutthroat": {
+      "class": "counted",
+      "name": "Cutthroat",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Dagger Mastery": {
+      "class": "counted",
+      "name": "Dagger Mastery",
+      "note": "moves numbers for: dagger",
+      "unread": []
+    },
+    "skill:Dagger Specialization": {
+      "class": "counted",
+      "name": "Dagger Specialization",
+      "note": "moves numbers for: dagger",
+      "unread": []
+    },
+    "skill:Dark Arts": {
+      "class": "counted",
+      "name": "Dark Arts",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Dessert Stomach": {
+      "class": "unlocks an action",
+      "name": "Dessert Stomach",
+      "note": "unlocks an action: You gain one additional Food slot.",
+      "unread": []
+    },
+    "skill:Dexterity": {
+      "class": "counted",
+      "name": "Dexterity",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Divine Surge": {
+      "class": "depends on how you play",
+      "name": "Divine Surge",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Double Jump": {
+      "class": "unlocks an action",
+      "name": "Double Jump",
+      "note": "unlocks an action: Allows jumping a second time while airborne.  Cost: 10 Stamina",
+      "unread": []
+    },
+    "skill:Eagle Eye": {
+      "class": "unlocks an action",
+      "name": "Eagle Eye",
+      "note": "unlocks an action: Greatly increases the zoom while aiming with Bows.  To aim, hold down the [key] while a Bow is selected in the Action bar. (Alternatively, hold [key] to aim your equipped Bow.)",
+      "unread": []
+    },
+    "skill:Eagle's Bane": {
+      "class": "counted",
+      "name": "Eagle's Bane",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Earth Aura": {
+      "class": "depends on how you play",
+      "name": "Earth Aura",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Echoing Explosives": {
+      "class": "counted",
+      "name": "Echoing Explosives",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Emergency Blink": {
+      "class": "unlocks an action",
+      "name": "Emergency Blink",
+      "note": "unlocks an action: You can blink while being stunned. This will break the stunned state.",
+      "unread": []
+    },
+    "skill:Endurance": {
+      "class": "counted",
+      "name": "Endurance",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Endurance of the Flame": {
+      "class": "counted",
+      "name": "Endurance of the Flame",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Eternal Spark": {
+      "class": "outside combat numbers",
+      "name": "Eternal Spark",
+      "note": "",
+      "unread": []
+    },
+    "skill:Evasion Attack": {
+      "class": "unlocks an action",
+      "name": "Evasion Attack",
+      "note": "unlocks an action: When equipped with a Melee weapon, you can perform an Evasion Attack by pressing [key] while evading.  You will dash towards the enemy and deal 50% additional weapon damage.  Cost: 25 Stamina  Block Breaker  This special attack fills a blocking enemy's Stun Bar twice as much when hit.",
+      "unread": []
+    },
+    "skill:Exalted": {
+      "class": "counted",
+      "name": "Exalted",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Expose Weakness": {
+      "class": "counted",
+      "name": "Expose Weakness",
+      "note": "moves numbers for: dagger",
+      "unread": []
+    },
+    "skill:Fatal Precision": {
+      "class": "counted",
+      "name": "Fatal Precision",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Felling Axe Specialization": {
+      "class": "unlocks an action",
+      "name": "Felling Axe Specialization",
+      "note": "unlocks an action: Unlocks Special Abilities of Felling Axes.  Press [key] to unleash a powerful Special Ability after generating enough Focus.   Focus Generate Focus by attacking. Focus can be built up with any weapon type and is used to trigger Special Abilities of weapons.",
+      "unread": []
+    },
+    "skill:Finesse": {
+      "class": "outside combat numbers",
+      "name": "Finesse",
+      "note": "",
+      "unread": []
+    },
+    "skill:Fire Resistance": {
+      "class": "counted",
+      "name": "Fire Resistance",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Fisherman’s Resolve": {
+      "class": "outside combat numbers",
+      "name": "Fisherman’s Resolve",
+      "note": "",
+      "unread": []
+    },
+    "skill:Frost": {
+      "class": "depends on how you play",
+      "name": "Frost",
+      "note": "triggers when you are hit or killed",
+      "unread": []
+    },
+    "skill:Giant Slayer Hook": {
+      "class": "unlocks an action",
+      "name": "Giant Slayer Hook",
+      "note": "unlocks an action: Use your Grappling Hook to pull yourself towards large enemies during combat.   The cost of this skill scales with enemy level. The higher the enemy level, the more it costs.  Base Cost: 30 Stamina",
+      "unread": []
+    },
+    "skill:Good Metabolism": {
+      "class": "unlocks an action",
+      "name": "Good Metabolism",
+      "note": "unlocks an action: Health, Mana, and Stamina Orbs restore 30% instead of 10% of their respective resource.  Health and Mana Potions restore 20% more resources.",
+      "unread": []
+    },
+    "skill:Graceful Stride": {
+      "class": "counted",
+      "name": "Graceful Stride",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Grounding Hook": {
+      "class": "unlocks an action",
+      "name": "Grounding Hook",
+      "note": "unlocks an action: Use your Grappling Hook to pull flying enemies towards you during combat.  The cost of this skill scales with enemy level. The higher the enemy level, the more it costs.  Base Cost: 30 Stamina",
+      "unread": []
+    },
+    "skill:Healer": {
+      "class": "depends on how you play",
+      "name": "Healer",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Healing Revive": {
+      "class": "outside combat numbers",
+      "name": "Healing Revive",
+      "note": "",
+      "unread": []
+    },
+    "skill:Heavy Handed": {
+      "class": "depends on how you play",
+      "name": "Heavy Handed",
+      "note": "stuns or staggers enemies (no damage number)",
+      "unread": []
+    },
+    "skill:Heavy Hitter": {
+      "class": "not counted",
+      "name": "Heavy Hitter",
+      "note": "gates attack steps that are never in the best combo the planner picks: Increases the attack speed of all Two-Handed Melee weapons by 10%.",
+      "unread": []
+    },
+    "skill:Heavy Plates": {
+      "class": "counted",
+      "name": "Heavy Plates",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Ice Resistance": {
+      "class": "counted",
+      "name": "Ice Resistance",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Iceman": {
+      "class": "counted",
+      "name": "Iceman",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Inner Fires": {
+      "class": "outside combat numbers",
+      "name": "Inner Fires",
+      "note": "",
+      "unread": []
+    },
+    "skill:Intelligence": {
+      "class": "counted",
+      "name": "Intelligence",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Kick": {
+      "class": "depends on how you play",
+      "name": "Kick",
+      "note": "stuns or staggers enemies (no damage number)",
+      "unread": []
+    },
+    "skill:Last Meal": {
+      "class": "unlocks an action",
+      "name": "Last Meal",
+      "note": "unlocks an action: Your Food buffs persist through death, but they last half as long.",
+      "unread": []
+    },
+    "skill:Life Burst": {
+      "class": "depends on how you play",
+      "name": "Life Burst",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Life Essences": {
+      "class": "counted",
+      "name": "Life Essences",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Lumberjack": {
+      "class": "outside combat numbers",
+      "name": "Lumberjack",
+      "note": "",
+      "unread": []
+    },
+    "skill:Mage Apprentice": {
+      "class": "counted",
+      "name": "Mage Apprentice",
+      "note": "moves numbers for: staff, wand, summoner",
+      "unread": []
+    },
+    "skill:Mana Currents": {
+      "class": "counted",
+      "name": "Mana Currents",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Marksman": {
+      "class": "counted",
+      "name": "Marksman",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Martyr": {
+      "class": "depends on how you play",
+      "name": "Martyr",
+      "note": "triggers when you are hit or killed",
+      "unread": []
+    },
+    "skill:Mason": {
+      "class": "outside combat numbers",
+      "name": "Mason",
+      "note": "",
+      "unread": []
+    },
+    "skill:Mass Destruction": {
+      "class": "counted",
+      "name": "Mass Destruction",
+      "note": "moves numbers for: staff, wand, summoner",
+      "unread": []
+    },
+    "skill:Merciless Attack": {
+      "class": "unlocks an action",
+      "name": "Merciless Attack",
+      "note": "unlocks an action: Perform a Merciless Attack by pressing [key] to deal 500% damage to an overpowered enemy.   Overpower  Attacking blocking enemies or parrying their attacks fills their Stun Bar until they become overpowered. Overpowered enemies are open for Merciless Attacks.   Wands, Staves and Bows cannot perform Merciless Attacks.",
+      "unread": []
+    },
+    "skill:Miner": {
+      "class": "unlocks an action",
+      "name": "Miner",
+      "note": "unlocks an action: Mining resources has a 10% chance to grant one additional resource.",
+      "unread": []
+    },
+    "skill:Mithridatist": {
+      "class": "unlocks an action",
+      "name": "Mithridatist",
+      "note": "unlocks an action: Gain a 25% chance to avoid being poisoned.",
+      "unread": []
+    },
+    "skill:Multi Shot": {
+      "class": "counted",
+      "name": "Multi Shot",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Multi Shot Spread": {
+      "class": "counted",
+      "name": "Multi Shot Spread",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Multi Shot Trigger": {
+      "class": "counted",
+      "name": "Multi Shot Trigger",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Necromancer": {
+      "class": "counted",
+      "name": "Necromancer",
+      "note": "moves numbers for: staff, wand, summoner",
+      "unread": []
+    },
+    "skill:Nemesis": {
+      "class": "depends on how you play",
+      "name": "Nemesis",
+      "note": "changes enemy aggro",
+      "unread": []
+    },
+    "skill:One-Handed Specialization": {
+      "class": "counted",
+      "name": "One-Handed Specialization",
+      "note": "moves numbers for: one-hand sword",
+      "unread": []
+    },
+    "skill:Opportunity": {
+      "class": "counted",
+      "name": "Opportunity",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Pickaxe Specialization": {
+      "class": "unlocks an action",
+      "name": "Pickaxe Specialization",
+      "note": "unlocks an action: Unlocks Special Abilities of Pickaxes.  Press [key] to unleash a powerful Special Ability after generating enough Focus.   Focus Generate Focus by attacking. Focus can be built up with any weapon type and is used to trigger Special Abilities of weapons.",
+      "unread": []
+    },
+    "skill:Power Parry": {
+      "class": "depends on how you play",
+      "name": "Power Parry",
+      "note": "triggers on parrying",
+      "unread": []
+    },
+    "skill:Primal Force": {
+      "class": "counted",
+      "name": "Primal Force",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Prospector": {
+      "class": "outside combat numbers",
+      "name": "Prospector",
+      "note": "",
+      "unread": []
+    },
+    "skill:Puncture": {
+      "class": "counted",
+      "name": "Puncture",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Purification": {
+      "class": "counted",
+      "name": "Purification",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer",
+      "unread": []
+    },
+    "skill:Quality Gear": {
+      "class": "unlocks an action",
+      "name": "Quality Gear",
+      "note": "unlocks an action: Tools have a 20% chance to restore 1 durability on hit.",
+      "unread": []
+    },
+    "skill:Quick Charge": {
+      "class": "counted",
+      "name": "Quick Charge",
+      "note": "moves numbers for: staff, summoner",
+      "unread": []
+    },
+    "skill:Quick Reflex Block": {
+      "class": "not counted",
+      "name": "Quick Reflex Block",
+      "note": "gates attack steps that are never in the best combo the planner picks: Briefly increases your Block value when blocking with Daggers, ensuring a near-miss parry reduces Stamina minimally.",
+      "unread": []
+    },
+    "skill:Radiant Aura": {
+      "class": "counted",
+      "name": "Radiant Aura",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Ranger": {
+      "class": "counted",
+      "name": "Ranger",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Rebound": {
+      "class": "counted",
+      "name": "Rebound",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Relentless": {
+      "class": "counted",
+      "name": "Relentless",
+      "note": "moves numbers for: greatsword, two-hand hammer",
+      "unread": []
+    },
+    "skill:Righteous Fire": {
+      "class": "depends on how you play",
+      "name": "Righteous Fire",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Runner": {
+      "class": "counted",
+      "name": "Runner",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Saviour": {
+      "class": "outside combat numbers",
+      "name": "Saviour",
+      "note": "",
+      "unread": []
+    },
+    "skill:Shared Misery": {
+      "class": "depends on how you play",
+      "name": "Shared Misery",
+      "note": "triggers when you are hit or killed",
+      "unread": []
+    },
+    "skill:Shell Shock": {
+      "class": "counted",
+      "name": "Shell Shock",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Shiny Plates": {
+      "class": "counted",
+      "name": "Shiny Plates",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Shock Resistance": {
+      "class": "counted",
+      "name": "Shock Resistance",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Shockwave": {
+      "class": "depends on how you play",
+      "name": "Shockwave",
+      "note": "triggers on parrying",
+      "unread": []
+    },
+    "skill:Shrapnel Blast": {
+      "class": "counted",
+      "name": "Shrapnel Blast",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Shroud Mitigation": {
+      "class": "outside combat numbers",
+      "name": "Shroud Mitigation",
+      "note": "extends your time in the Shroud",
+      "unread": []
+    },
+    "skill:Shroud Resistance": {
+      "class": "counted",
+      "name": "Shroud Resistance",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Silent Stride": {
+      "class": "depends on how you play",
+      "name": "Silent Stride",
+      "note": "movement while sneaking or sprinting",
+      "unread": []
+    },
+    "skill:Skill Shot": {
+      "class": "counted",
+      "name": "Skill Shot",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Slasher": {
+      "class": "counted",
+      "name": "Slasher",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Sleight of Hand": {
+      "class": "counted",
+      "name": "Sleight of Hand",
+      "note": "moves numbers for: unarmed",
+      "unread": []
+    },
+    "skill:Slice And Dice": {
+      "class": "depends on how you play",
+      "name": "Slice And Dice",
+      "note": "needs switching between two weapon types",
+      "unread": []
+    },
+    "skill:Snake Eater": {
+      "class": "counted",
+      "name": "Snake Eater",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Snap": {
+      "class": "not counted",
+      "name": "Snap",
+      "note": "gates attack steps that are never in the best combo the planner picks: Triggering a Merciless Attack restores 20% Mana.",
+      "unread": []
+    },
+    "skill:Sneak Attack": {
+      "class": "unlocks an action",
+      "name": "Sneak Attack",
+      "note": "unlocks an action: Perform a Sneak Attack by sneaking up to an unaware enemy and pressing [key].  Sneak Attack deals +900% increased damage.  Wands, Staves and Bows cannot perform Sneak Attacks.",
+      "unread": []
+    },
+    "skill:Sniper": {
+      "class": "counted",
+      "name": "Sniper",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Soaked Dog": {
+      "class": "unlocks an action",
+      "name": "Soaked Dog",
+      "note": "unlocks an action: Weakens the effect of the Wet and Soaked debuffs.  Stamina and Stamina Regeneration is reduced by 10% instead of 20%.  Wet  Reduces Stamina and Stamina Regeneration by 30% for 15 minutes. Warmth reduces the remaining duration.  Soaked  Reduces Stamina and Stamina Regeneration by 30% for 30 seconds. Also reduces Ice and Shock Resistances by 30% but increases Fire Resistance by 30%. Soaked can be applied to enemies. Soaked duration can not be reduced by warmth, and transitions into the Wet debuff once it ends.",
+      "unread": []
+    },
+    "skill:Soul Leech": {
+      "class": "counted",
+      "name": "Soul Leech",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Spellslinger": {
+      "class": "counted",
+      "name": "Spellslinger",
+      "note": "moves numbers for: staff, summoner",
+      "unread": []
+    },
+    "skill:Spirit": {
+      "class": "counted",
+      "name": "Spirit",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Splash Dash": {
+      "class": "unlocks an action",
+      "name": "Splash Dash",
+      "note": "unlocks an action: Allows you to perform an evasive dash while swimming or diving.  Cost: 40 Stamina",
+      "unread": []
+    },
+    "skill:Steadfast": {
+      "class": "outside combat numbers",
+      "name": "Steadfast",
+      "note": "",
+      "unread": []
+    },
+    "skill:Sting": {
+      "class": "counted",
+      "name": "Sting",
+      "note": "moves numbers for: wand",
+      "unread": []
+    },
+    "skill:Strategic Maneuver": {
+      "class": "unlocks an action",
+      "name": "Strategic Maneuver",
+      "note": "unlocks an action: Replaces the Dodge Roll ability with a sideways Dodge Roll while an enemy target is locked.  Use it to roll around your enemies, making it easier to flank them or deliver backstabs.   Blink replaces the sideways Dodge Roll of the Strategic Maneuver skill.  Cost: 20 Stamina",
+      "unread": []
+    },
+    "skill:Strength": {
+      "class": "counted",
+      "name": "Strength",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Survival Instinct": {
+      "class": "counted",
+      "name": "Survival Instinct",
+      "note": "moves numbers for: bow, dagger",
+      "unread": []
+    },
+    "skill:Sweet Tooth": {
+      "class": "unlocks an action",
+      "name": "Sweet Tooth",
+      "note": "unlocks an action: Stamina Regeneration of sweets is increased by 50%.",
+      "unread": []
+    },
+    "skill:Swift Blades": {
+      "class": "counted",
+      "name": "Swift Blades",
+      "note": "moves numbers for: one-hand sword",
+      "unread": []
+    },
+    "skill:Swiftshot Sustenance": {
+      "class": "counted",
+      "name": "Swiftshot Sustenance",
+      "note": "moves numbers for: bow",
+      "unread": []
+    },
+    "skill:Terror": {
+      "class": "depends on how you play",
+      "name": "Terror",
+      "note": "stuns or staggers enemies (no damage number)",
+      "unread": []
+    },
+    "skill:Thick Skin": {
+      "class": "counted",
+      "name": "Thick Skin",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Thrust": {
+      "class": "counted",
+      "name": "Thrust",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed",
+      "unread": []
+    },
+    "skill:Thunder": {
+      "class": "counted",
+      "name": "Thunder",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Titan Edge": {
+      "class": "counted",
+      "name": "Titan Edge",
+      "note": "moves numbers for: greatsword",
+      "unread": []
+    },
+    "skill:Totem Mastery": {
+      "class": "counted",
+      "name": "Totem Mastery",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Tower": {
+      "class": "counted",
+      "name": "Tower",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Two-Handed Specialization": {
+      "class": "counted",
+      "name": "Two-Handed Specialization",
+      "note": "moves numbers for: greatsword, two-hand hammer",
+      "unread": []
+    },
+    "skill:Unity": {
+      "class": "counted",
+      "name": "Unity",
+      "note": "moves numbers for: wand",
+      "unread": []
+    },
+    "skill:Updraft": {
+      "class": "unlocks an action",
+      "name": "Updraft",
+      "note": "unlocks an action: Jumping with [key] while gliding lifts you upwards. Can be used once per flight.  Charge As the Updraft charges before activation, the resulting lift is increased. A full charge grants you an additional boost. The charge is accelerated while inside your base.  Cost: 100 Mana",
+      "unread": []
+    },
+    "skill:Upwards Slash Attack": {
+      "class": "unlocks an action",
+      "name": "Upwards Slash Attack",
+      "note": "unlocks an action: When equipped with a Melee weapon, launch a powerful upward strike during the ascent of your jump.   Use this skill to rapidly close the distance on flying enemies.  Cost: 25 Stamina",
+      "unread": []
+    },
+    "skill:Veiled Vigor": {
+      "class": "counted",
+      "name": "Veiled Vigor",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Venom Mastery": {
+      "class": "not counted",
+      "name": "Venom Mastery",
+      "note": "special behaviour not calculated: Increases the damage dealt with the Venomous Blades Dagger perk by 100%.",
+      "unread": []
+    },
+    "skill:Venomous Blades": {
+      "class": "unlocks an action",
+      "name": "Venomous Blades",
+      "note": "unlocks an action: Increases the chance to poison enemies to 30% when using Daggers with the Venomous Blades perk.",
+      "unread": []
+    },
+    "skill:Veteran": {
+      "class": "counted",
+      "name": "Veteran",
+      "note": "moves numbers for: one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Vigorous Deflection": {
+      "class": "outside combat numbers",
+      "name": "Vigorous Deflection",
+      "note": "",
+      "unread": []
+    },
+    "skill:Vile Concoction": {
+      "class": "counted",
+      "name": "Vile Concoction",
+      "note": "moves numbers for: throwable",
+      "unread": []
+    },
+    "skill:Vitality Surge": {
+      "class": "counted",
+      "name": "Vitality Surge",
+      "note": "moves numbers for: bow, dagger, throwable",
+      "unread": []
+    },
+    "skill:Vukah Culture": {
+      "class": "outside combat numbers",
+      "name": "Vukah Culture",
+      "note": "changes how animals or Vukah behave toward you",
+      "unread": []
+    },
+    "skill:Vukah Language": {
+      "class": "outside combat numbers",
+      "name": "Vukah Language",
+      "note": "changes how animals or Vukah behave toward you",
+      "unread": []
+    },
+    "skill:Wand Evasion Attack": {
+      "class": "unlocks an action",
+      "name": "Wand Evasion Attack",
+      "note": "unlocks an action: When equipped with a Wand, you can perform a Wand Evasion Attack by pressing [key] while evading. It fires a magical disc that pierces enemies and deals 50% additional weapon damage.  Cost: 50 Mana",
+      "unread": []
+    },
+    "skill:Wand Mastery": {
+      "class": "counted",
+      "name": "Wand Mastery",
+      "note": "moves numbers for: wand",
+      "unread": []
+    },
+    "skill:Wand Specialization": {
+      "class": "counted",
+      "name": "Wand Specialization",
+      "note": "moves numbers for: wand",
+      "unread": []
+    },
+    "skill:Wanderlust": {
+      "class": "unlocks an action",
+      "name": "Wanderlust",
+      "note": "unlocks an action: Stamina cost for sprinting on dirt roads is reduced from 90% to 80%.  Stamina cost for sprinting on stone roads is reduced from 75% to 50%.",
+      "unread": []
+    },
+    "skill:Warden": {
+      "class": "counted",
+      "name": "Warden",
+      "note": "moves numbers for: bow, staff, wand, one-hand sword, greatsword, two-hand hammer, dagger, throwable, unarmed, summoner",
+      "unread": []
+    },
+    "skill:Warrior's Path": {
+      "class": "counted",
+      "name": "Warrior's Path",
+      "note": "moves numbers for: one-hand sword",
+      "unread": []
+    },
+    "skill:Water Aura": {
+      "class": "depends on how you play",
+      "name": "Water Aura",
+      "note": "heals or buffs you and allies",
+      "unread": []
+    },
+    "skill:Waters Of Life": {
+      "class": "unlocks an action",
+      "name": "Waters Of Life",
+      "note": "unlocks an action: Increases Water Aura healing to 2 Health per 2 points of Intelligence.",
+      "unread": []
+    },
+    "skill:Well Rested": {
+      "class": "outside combat numbers",
+      "name": "Well Rested",
+      "note": "",
+      "unread": []
+    },
+    "skill:Wet Dog": {
+      "class": "unlocks an action",
+      "name": "Wet Dog",
+      "note": "unlocks an action: Weakens the effect of the Wet and Soaked debuffs.  Stamina and Stamina Regeneration is reduced by 20% instead of 30%.  Wet  Reduces Stamina and Stamina Regeneration by 30% for 15 minutes. Warmth reduces the remaining duration.  Soaked  Reduces Stamina and Stamina Regeneration by 30% for 30 seconds. Also reduces Ice and Shock Resistances by 30% but increases Fire Resistance by 30%. Soaked can be applied to enemies. Soaked duration can not be reduced by warmth, and transitions into the Wet debuff once it ends.",
+      "unread": []
+    },
+    "skill:Whirlwind Crescendo": {
+      "class": "not counted",
+      "name": "Whirlwind Crescendo",
+      "note": "gates attack steps that are never in the best combo the planner picks: When equipped with a Two-Handed weapon, trigger a whirl attack at the end of an attack chain.  Cost: 75 Stamina",
+      "unread": []
+    },
+    "skill:Wizard": {
+      "class": "counted",
+      "name": "Wizard",
+      "note": "moves numbers for: staff, wand, summoner",
+      "unread": []
+    }
+  }
+}

@@ -1,0 +1,21 @@
+/* The breakdown tooltip (tip.js): sized to its content; the planner sizes its window to match. */
+html, body { height: auto; }
+#tip { display: inline-block; width: 300px; box-sizing: border-box; background: rgba(8, 7, 6, 0.96); border: 1px solid var(--line);
+  border-radius: 6px; padding: 7px 8px 8px; font-size: 12px; }
+#tip[hidden] { display: none; }
+.thead { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.thead b { font-size: 13px; }
+.thead span { color: var(--text2); }
+.weapon { margin-top: 6px; }
+.weapon .wname { display: flex; align-items: center; gap: 6px; font-weight: 700; color: var(--head, #ECD799); padding: 0 2px 2px; }
+.weapon .wname .wt { flex: 1; }
+.weapon .wname span { font-weight: 400; color: var(--text2); }
+.line { position: relative; display: flex; gap: 6px; align-items: center; height: 20px; padding: 0 4px 0 8px; border-radius: 3px; overflow: hidden; }
+.line .fill { position: absolute; inset: 0 auto 0 0; opacity: 0.35; }
+.line > span { position: relative; }
+.ico { position: relative; width: 16px; height: 16px; flex: none; object-fit: contain; border-radius: 3px; }
+.line .el { font-size: 10.5px; font-weight: 700; }
+.line .n { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.line .v { color: var(--text); }
+.line .m { color: var(--text2); width: 30px; text-align: right; }
+.foot { margin-top: 6px; color: var(--text3); }
